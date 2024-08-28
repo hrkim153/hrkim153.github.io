@@ -24,9 +24,23 @@ Research Interest
 - My focus is on developing models that effectively perform **anomaly detection** on **tabular** and **video data**. Additionally, I am passionate about advancing **multimodal AI** for tasks involving **dashcam video** data, **medical image/drug** data, and more.
 - Recently, my study has centered on **multimodal learning**, **self-supervised learning**, **graph representation learning**, and **trustworthy AI**.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+Work Experience
+======
+- Graduate Research Assistant
+  - Handong Global University, Pohang, South Korea
+  - Advisor: Charmgil Hong
+  - March 2023 - Present
+- Research Intern
+  - ETRI (Electronics and Telecommunications Research Institute), Daejeon, South Korea
+  - January 2023 - February 2023 (1.5 month)
+
+Volunteer Experience
+======
+- Student Volunteer, IJCAI (International Joint Conferences on Artificial Intelligence)
+  - August 2024
+- Teaching Assistant, Data Science Camp in Cambodia, UNESCO UNITWIN
+  - August 2023
+
 
 Create content & metadata
 ------
