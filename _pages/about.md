@@ -8,7 +8,7 @@ redirect_from:
 ---
 Hello, I am **Harim Kim**.
 
-I am currently working on my master's degree in the Department of Computer Science and Electrical Engineering at [Handong Global University](https://handong.edu/). My research interests include the development of deep learning networks and algorithms based on the characteristics of data. I am currently working under the guidance of [Prof. Charmgil Hong](https://charmgil.github.io/) in [Handong Artificial Intelligence Lab. (HAIL)](https://hail.handong.edu/), and I am **searching potential research labs for my Ph.D. studies in 2025**.
+I am currently working on my master's degree in the Department of Computer Science and Electrical Engineering at [Handong Global University](https://handong.edu/). My research interests include the development of deep learning networks and algorithms based on the characteristics of data. I am currently working under the guidance of [Prof. Charmgil Hong](https://charmgil.github.io/) in [Handong Artificial Intelligence Lab. (HAIL)](https://hail.handong.edu/), and I am **searching potential research labs for my Ph.D. studies**.
 
 Education
 ======
@@ -41,23 +41,33 @@ Volunteer Experience
 - Teaching Assistant, Data Science Camp in Cambodia, UNESCO UNITWIN
   - August 2023
 
+Refereed Publications
+======
+- **International Venues**
+  - Harim Kim, Chang Ha Lee, Charmgil Hong. Transformer for Point Anomaly Detection. ACM International Conference on Information and Knowledge Management (CIKM). 2024. (to appear) ([github](https://github.com/nth221/TransPAD))
+  - Jaemin Jung, Soonyong Park, Harim Kim, Chang Ha Lee, Charmgil Hong. Artificial Intelligence-Driven Video Indexing for Rapid Surveillance Footage Summarization and Review. International Joint Conference on Artificial Intelligence (IJCAI) Demo Track. 2024.
+  - Harim Kim, Minchae Kim, Taewoo Kim, Kyujin Cho, Charmgil Hong. AREST: Attention-Based Red-Light Violation Detection for Safety Technology. IEEE International Conference on Advanced Video and Signal-Based Surveillance (AVSS). 2024.
+  - Harim Kim, Chang Ha Lee, Charmgil Hong. VATMAN: Video Anomaly Transformer for Monitoring Accidents and Nefariousness. IEEE International Conference on Advanced Video and Signal-Based Surveillance (AVSS). 2024.
+  - Harim Kim, Chang Ha Lee, Charmgil Hong. Crime Scene Detection in Surveillance Videos Using Variational AutoEncoder-Based Support Vector Data Description. Asian Conference on Intelligent Information and Database Systems (ACIIDS). 2023.
+- **Domestic Venues**
+  - Harim Kim, Yeseul Kim, Yohan Sohn, Hyo Jung Cho, Soon Sun Kim, Ji Eun Han, Jae Youn Cheong, Charmgil Hong. Prediction of Drug-Induced Liver Injuries Using Transformer. KIISE Transactions on Computing Practices (KTCP). 2024. (in press)
+  - Harim Kim, Yeseul Kim, Yohan Sohn, Hyo Jung Cho, Soon Sun Kim, Ji Eun Han, Jae Youn Cheong, Charmgil Hong. Prediction of Drug-Induced Liver Injuries Using Transformer. Korea Software Congress (KSC). 2023.
+  - Harim Kim, Yuseok Bae, Joong-won Hwang. Distance-Based Confidence Calibration Method Robust to Open Set Classfication. Korea Computer Congress (KCC). 2023.
+  - Harim Kim, Charmgil Hong. Outlier Detection-Based Crime Scene Detection in Surveillance Videos Using Variational AutoEncoder. Korea Computer Congress (KCC). 2022.
+ 
+Workshops/Symposiums
+======
+- Harim Kim, Hyo Jung Cho, Soon Sun Kim, Ji Eun Han, Jae Youn Cheong, Charmgil Hong. Personalized Prediction of Drug-Induced Liver Injury Using the Transformer Architecture. The Liver Week (TLW) 2024.
+- Harim Kim, Minchae Kim, Taewoo Kim, Kyujin Cho, Charmgil Hong. Red-Light Violation Detection Using Attention Mechanism in Dashcam Footage. Korea Multimedia Society, Spring. 2024.
+- Chaewon Kim, Seeun Park, Harim Kim, Taewoo Kim, Kyujin Cho, Charmgil Hong. A Method for Lane Recognition and Departure Detection Using Dashcam Videos. Korea Multimedia Society, Spring. 2024.
+- Harim Kim, Hyo Jung Cho, Jae Youn Cheong, Charmgil Hong. Lenvatinib Efficacy Prediction Using Liver CT Images and a Pre-trained 3D-CNN. Korean Society of Medical Informatics, Fall. 2022.
+- Harim Kim, Charmgil Hong. Trespass Detection in Surveillance Videos Using VAE- SVDD with 3D-CNN. Korea Multimedia Society, Spring. 2022.
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+Awards
+======
+- Best Paper Award. 20th IEEE International Conference on Advanced Video and Signal-Based Surveillance. July 2024.
+- Best Presentation Award. The Liver Week. June 2024.
+- Best Paper Award. Korea Multimedia Society, Spring. May 2024.
+- Best Paper Award. KSC (Korean Software Congress). December 2023.
+- Best Capstone Project in AI Award. Korea Multimedia Society, Spring. May 2022.
+- 1st Prize, the Capstone Design. Handong Global University. June 2022.
