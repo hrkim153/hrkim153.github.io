@@ -21,14 +21,15 @@ repository               : "ksanong/ksanong.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : "profile.jpeg"
+  name             : "Harim Kim"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Master's Student at Handong Global University"
+  location         : "Pohang, South Korea"
+  employer         : "Handong Global University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "hrkim@handong.ac.kr"
+  email            : "ksanong@gmail.com"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
