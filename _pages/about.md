@@ -12,7 +12,7 @@ I am currently working on my master's degree in the Department of Computer Scien
 
 Education
 ======
-- Master of Computer Science (Currently 3rd Semester)
+- Master of Computer Science (Currently 4th Semester)
   - Handong Global University, Pohang, South Korea
   - Expected Graduation: July, 2025
 - Bachelor of Computer Science
@@ -45,10 +45,10 @@ Refereed Publications
 ======
 - **International Venues**
   - Harim Kim, Chang Ha Lee, Charmgil Hong. Transformer for Point Anomaly Detection. ACM International Conference on Information and Knowledge Management (CIKM). 2024. (to appear) ([github](https://github.com/nth221/TransPAD))
-  - Jaemin Jung, Soonyong Park, Harim Kim, Chang Ha Lee, Charmgil Hong. Artificial Intelligence-Driven Video Indexing for Rapid Surveillance Footage Summarization and Review. International Joint Conference on Artificial Intelligence (IJCAI) Demo Track. 2024.
-  - Harim Kim, Minchae Kim, Taewoo Kim, Kyujin Cho, Charmgil Hong. AREST: Attention-Based Red-Light Violation Detection for Safety Technology. IEEE International Conference on Advanced Video and Signal-Based Surveillance (AVSS). 2024.
-  - Harim Kim, Chang Ha Lee, Charmgil Hong. VATMAN: Video Anomaly Transformer for Monitoring Accidents and Nefariousness. IEEE International Conference on Advanced Video and Signal-Based Surveillance (AVSS). 2024.
-  - Harim Kim, Chang Ha Lee, Charmgil Hong. Crime Scene Detection in Surveillance Videos Using Variational AutoEncoder-Based Support Vector Data Description. Asian Conference on Intelligent Information and Database Systems (ACIIDS). 2023.
+  - Jaemin Jung, Soonyong Park, Harim Kim, Chang Ha Lee, Charmgil Hong. Artificial Intelligence-Driven Video Indexing for Rapid Surveillance Footage Summarization and Review. International Joint Conference on Artificial Intelligence (IJCAI) Demo Track. 2024. ([paper](https://www.ijcai.org/proceedings/2024/1009.pdf))
+  - Harim Kim, Minchae Kim, Taewoo Kim, Kyujin Cho, Charmgil Hong. AREST: Attention-Based Red-Light Violation Detection for Safety Technology. IEEE International Conference on Advanced Video and Signal-Based Surveillance (AVSS). 2024. ([paper](https://ieeexplore.ieee.org/document/10672611))
+  - Harim Kim, Chang Ha Lee, Charmgil Hong. VATMAN: Video Anomaly Transformer for Monitoring Accidents and Nefariousness. IEEE International Conference on Advanced Video and Signal-Based Surveillance (AVSS). 2024. ([paper](https://ieeexplore.ieee.org/document/10672570))
+  - Harim Kim, Chang Ha Lee, Charmgil Hong. Crime Scene Detection in Surveillance Videos Using Variational AutoEncoder-Based Support Vector Data Description. Asian Conference on Intelligent Information and Database Systems (ACIIDS). 2023. ([paper](https://link.springer.com/chapter/10.1007/978-3-031-42430-4_37))
 - **Domestic Venues**
   - Harim Kim, Yeseul Kim, Yohan Sohn, Hyo Jung Cho, Soon Sun Kim, Ji Eun Han, Jae Youn Cheong, Charmgil Hong. Prediction of Drug-Induced Liver Injuries Using Transformer. KIISE Transactions on Computing Practices (KTCP). 2024. (in press)
   - Harim Kim, Yeseul Kim, Yohan Sohn, Hyo Jung Cho, Soon Sun Kim, Ji Eun Han, Jae Youn Cheong, Charmgil Hong. Prediction of Drug-Induced Liver Injuries Using Transformer. Korea Software Congress (KSC). 2023.
