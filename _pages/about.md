@@ -10,6 +10,10 @@ Hello, I am **Harim Kim**.
 
 I am currently working on my master's degree in the Department of Computer Science and Electrical Engineering at [Handong Global University](https://handong.edu/). My research interests include the development of deep learning networks and algorithms based on the characteristics of data. I am currently working under the guidance of [Prof. Charmgil Hong](https://charmgil.github.io/) in [Handong Artificial Intelligence Lab. (HAIL)](https://hail.handong.edu/), and I am **searching potential research labs for my Ph.D. studies**.
 
+Research Interest
+======
+- My focus is on developing models that effectively perform **anomaly detection** on **tabular** and **image/video data**. Additionally, I am passionate about advancing **multimodal AI** for tasks involving **video** data, **medical image/drug** data, and more.
+
 Work Experience
 ======
 - Visiting Researcher
@@ -32,10 +36,6 @@ Education
 - Bachelor of Computer Science
   - Handong Global University, Pohang, South Korea
   - Graduated: February, 2023
-
-Research Interest
-======
-- My focus is on developing models that effectively perform **anomaly detection** on **tabular** and **image/video data**. Additionally, I am passionate about advancing **multimodal AI** for tasks involving **video** data, **medical image/drug** data, and more.
 
 Volunteer Experience
 ======
