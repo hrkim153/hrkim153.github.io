@@ -54,7 +54,7 @@ Refereed Publications
   - **Harim Kim**, Chang Ha Lee, Charmgil Hong. VATMAN: Video Anomaly Transformer for Monitoring Accidents and Nefariousness. IEEE International Conference on Advanced Video and Signal-Based Surveillance (AVSS). 2024. ([paper](https://ieeexplore.ieee.org/document/10672570))
   - **Harim Kim**, Chang Ha Lee, Charmgil Hong. Crime Scene Detection in Surveillance Videos Using Variational AutoEncoder-Based Support Vector Data Description. Asian Conference on Intelligent Information and Database Systems (ACIIDS). 2023. ([paper](https://link.springer.com/chapter/10.1007/978-3-031-42430-4_37))
 - **Domestic Venues**
-  - **Harim Kim**, Yeseul Kim, Yohan Sohn, Hyo Jung Cho, Soon Sun Kim, Ji Eun Han, Jae Youn Cheong, Charmgil Hong. Prediction of Drug-Induced Liver Injuries Using Transformer. KIISE Transactions on Computing Practices (KTCP). 2024. (in press)
+  - **Harim Kim**, Yeseul Kim, Yohan Sohn, Hyo Jung Cho, Soon Sun Kim, Ji Eun Han, Jae Youn Cheong, Charmgil Hong. Prediction of Drug-Induced Liver Injuries Using Transformer. KIISE Transactions on Computing Practices (KTCP). 2024.
   - **Harim Kim**, Yeseul Kim, Yohan Sohn, Hyo Jung Cho, Soon Sun Kim, Ji Eun Han, Jae Youn Cheong, Charmgil Hong. Prediction of Drug-Induced Liver Injuries Using Transformer. Korea Software Congress (KSC). 2023.
   - **Harim Kim**, Yuseok Bae, Joong-won Hwang. Distance-Based Confidence Calibration Method Robust to Open Set Classfication. Korea Computer Congress (KCC). 2023.
   - **Harim Kim**, Charmgil Hong. Outlier Detection-Based Crime Scene Detection in Surveillance Videos Using Variational AutoEncoder. Korea Computer Congress (KCC). 2022.
