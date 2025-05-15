@@ -16,14 +16,14 @@ Research Interest
 
 Work Experience
 ======
-- Visiting Researcher
-  - University of California, Santa Cruz, CA
-  - Advisor: Yuyin Zhou
-  - December 2024 - Present
 - Graduate Research Assistant
   - Handong Global University, Pohang, South Korea
   - Advisor: Charmgil Hong
   - March 2023 - Present
+- Visiting Researcher
+  - University of California, Santa Cruz, CA
+  - Advisor: Yuyin Zhou
+  - December 2024 - April 2025 (5 month)
 - Research Intern
   - ETRI (Electronics and Telecommunications Research Institute), Daejeon, South Korea
   - January 2023 - February 2023 (1.5 month)
@@ -47,7 +47,7 @@ Volunteer Experience
 Refereed Publications
 ======
 - **International Venues**
-  - A paper is under review ... Fingers Crossed !!!
+  - **Harim Kim**, Yuhan Wang, Minkyu Ahn, Heeyoul Choi, Yuyin Zhou, Charmgil Hong. Harnessing EHRs for Diffusion-based Anomaly Detection on Chest X-rays. Medical Image Computing and Computer Assisted Intervention (MICCAI). 2025. (**Early Accepted**)
   - **Harim Kim**, Chang Ha Lee, Charmgil Hong. Transformer for Point Anomaly Detection. ACM International Conference on Information and Knowledge Management (CIKM). 2024. ([paper](https://dl.acm.org/doi/10.1145/3627673.3679859), [github](https://github.com/nth221/TransPAD))
   - Jaemin Jung, Soonyong Park, **Harim Kim**, Chang Ha Lee, Charmgil Hong. Artificial Intelligence-Driven Video Indexing for Rapid Surveillance Footage Summarization and Review. International Joint Conference on Artificial Intelligence (IJCAI) Demo Track. 2024. ([paper](https://www.ijcai.org/proceedings/2024/1009.pdf), [github](https://github.com/nth221/videx))
   - **Harim Kim**, Minchae Kim, Taewoo Kim, Kyujin Cho, Charmgil Hong. AREST: Attention-Based Red-Light Violation Detection for Safety Technology. IEEE International Conference on Advanced Video and Signal-Based Surveillance (AVSS). 2024. ([paper](https://ieeexplore.ieee.org/document/10672611))
@@ -84,4 +84,4 @@ Media Coverage
 - "Handong Global University and GMDSOFT Gain International Recognition for AI Video Processing Technology" - Media Gyeongbuk, August 2024 ([link](http://www.mediagb.kr/news/view.php?idx=35347))
 
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fhrkim153.github.io&count_bg=%235C5C5C&title_bg=%23C5E1EB&icon=retroarch.svg&icon_color=%23E7E7E7&title=Hits&edge_flat=false)](https://hits.seeyoufarm.com)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fhrkim153.github.io%2F&count_bg=%235C5C5C&title_bg=%23C5E1EB&icon=retroarch&icon_color=%23E7E7E7&title=Hits&edge_flat=false)](https://hits.seeyoufarm.com)
