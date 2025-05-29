@@ -47,7 +47,7 @@ Volunteer Experience
 Refereed Publications
 ======
 - **International Venues**
-  - **Harim Kim**, Yuhan Wang, Minkyu Ahn, Heeyoul Choi, Yuyin Zhou, Charmgil Hong. Harnessing EHRs for Diffusion-based Anomaly Detection on Chest X-rays. Medical Image Computing and Computer Assisted Intervention (MICCAI). 2025. (**Early Accepted**)
+  - **Harim Kim**, Yuhan Wang, Minkyu Ahn, Heeyoul Choi, Yuyin Zhou, Charmgil Hong. Harnessing EHRs for Diffusion-based Anomaly Detection on Chest X-rays. Medical Image Computing and Computer Assisted Intervention (MICCAI). 2025. (**Early Accepted**) ([arxiv](https://arxiv.org/abs/2505.17311))
   - **Harim Kim**, Chang Ha Lee, Charmgil Hong. Transformer for Point Anomaly Detection. ACM International Conference on Information and Knowledge Management (CIKM). 2024. ([paper](https://dl.acm.org/doi/10.1145/3627673.3679859), [github](https://github.com/nth221/TransPAD))
   - Jaemin Jung, Soonyong Park, **Harim Kim**, Chang Ha Lee, Charmgil Hong. Artificial Intelligence-Driven Video Indexing for Rapid Surveillance Footage Summarization and Review. International Joint Conference on Artificial Intelligence (IJCAI) Demo Track. 2024. ([paper](https://www.ijcai.org/proceedings/2024/1009.pdf), [github](https://github.com/nth221/videx))
   - **Harim Kim**, Minchae Kim, Taewoo Kim, Kyujin Cho, Charmgil Hong. AREST: Attention-Based Red-Light Violation Detection for Safety Technology. IEEE International Conference on Advanced Video and Signal-Based Surveillance (AVSS). 2024. ([paper](https://ieeexplore.ieee.org/document/10672611))
