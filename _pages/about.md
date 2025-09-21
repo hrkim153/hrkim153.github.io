@@ -8,7 +8,7 @@ redirect_from:
 ---
 Hello, I am **Harim Kim**.
 
-I am currently working on my master's degree in the Department of Computer Science and Electrical Engineering at [Handong Global University](https://handong.edu/). My research interests include the development of deep learning networks and algorithms based on the characteristics of data. I am currently working under the guidance of [Prof. Charmgil Hong](https://charmgil.github.io/) in [Handong Artificial Intelligence Lab. (HAIL)](https://hail.handong.edu/), and I am **searching potential research labs for my Ph.D. studies**.
+I hold a Master's degree in the Department of Computer Science and Electrical Engineering. My research interest lies in developing novel deep learning architectures that effectively solve problems by considering data characteristics and given constraints. I completed my M.S. in Computer Science at [Handong Global University](https://handong.edu/) under the supervision of [Prof. Charmgil Hong](https://charmgil.github.io/) in [Handong Artificial Intelligence Lab. (HAIL)](https://hail.handong.edu/), and I am **searching potential research labs for my Ph.D. studies**.
 
 Research Interest
 ======
@@ -19,7 +19,7 @@ Work Experience
 - Graduate Research Assistant
   - Handong Global University, Pohang, South Korea
   - Advisor: Charmgil Hong
-  - March 2023 - Present
+  - March 2023 - August 2025 (2.5 years)
 - Visiting Researcher
   - University of California, Santa Cruz, CA
   - Advisor: Yuyin Zhou
@@ -69,13 +69,15 @@ Workshops/Symposiums
 
 Awards
 ======
-- Best Paper Award. Handong Global University. November 2024.
+- **Best Thesis Award**. Handong Global University. August 2025.
+- **Certificate of Appreciation**. Korean Institute of Information Scientists and Engineers (KIISE). July 2025
+- **Best Paper Award**. Handong Global University. November 2024.
 - **Best Paper Award**. 20th IEEE International Conference on Advanced Video and Signal-Based Surveillance. July 2024.
 - **Best Presentation Award**. The Liver Week. June 2024.
 - **Best Paper Award**. Korea Multimedia Society, Spring. May 2024.
 - **Best Paper Award**. KSC (Korean Software Congress). December 2023.
 - **Best Capstone Project in AI Award**. Korea Multimedia Society, Spring. May 2022.
-- Best Capstone Design. Handong Global University. June 2022.
+- **Best Capstone Design**. Handong Global University. June 2022.
 
 Media Coverage
 ======
