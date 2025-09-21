@@ -8,7 +8,7 @@ redirect_from:
 ---
 Hello, I am **Harim Kim**.
 
-I hold a Master's degree in the Department of Computer Science and Electrical Engineering. My research interest lies in developing novel deep learning architectures that effectively solve problems by considering data characteristics and given constraints. I completed my M.S. in Computer Science at [Handong Global University](https://handong.edu/) under the supervision of [Prof. Charmgil Hong](https://charmgil.github.io/) in [Handong Artificial Intelligence Lab. (HAIL)](https://hail.handong.edu/), and I am **searching potential research labs for my Ph.D. studies**.
+I hold a Master's degree in the Department of Computer Science and Electrical Engineering. My research interest lies in developing novel deep learning architectures that effectively address problems by considering data characteristics and given constraints. I completed my M.S. in Computer Science at [Handong Global University](https://handong.edu/) under the supervision of [Prof. Charmgil Hong](https://charmgil.github.io/) in [Handong Artificial Intelligence Lab. (HAIL)](https://hail.handong.edu/), and I am **searching potential research labs for my Ph.D. studies**.
 
 Research Interest
 ======
