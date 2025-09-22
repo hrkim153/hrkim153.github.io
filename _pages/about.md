@@ -8,13 +8,24 @@ redirect_from:
 ---
 Hello, I am **Harim Kim**.
 
-I hold a Master's degree in the Department of Computer Science and Electrical Engineering. My research interest lies in developing novel deep learning architectures that effectively address problems by considering data characteristics and given constraints. I completed my M.S. in Computer Science at [Handong Global University](https://handong.edu/) under the supervision of [Prof. Charmgil Hong](https://charmgil.github.io/) in [Handong Artificial Intelligence Lab. (HAIL)](https://hail.handong.edu/), and I am **searching potential research labs for my Ph.D. studies**.
+I hold a Master's degree in the Department of Computer Science and Electrical Engineering. My research interest lies in developing innovative deep learning frameworks to address constrained challenges in image and video data analysis. I completed my M.S. in Computer Science at [Handong Global University](https://handong.edu/) under the supervision of [Prof. Charmgil Hong](https://charmgil.github.io/) in [Handong Artificial Intelligence Lab. (HAIL)](https://hail.handong.edu/), and I am currently **seeking Ph.D. opportunities in computer science**.
 
-Research Interest
+RESEARCH INTEREST
 ======
-- My focus is on developing models that effectively perform **anomaly detection** on **tabular** and **image/video data**. Additionally, I am passionate about advancing **multimodal AI** for tasks involving **video** data, **medical image/drug** data, and more.
+- Developing innovative deep learning frameworks to address constrained challenges in **image and video data analysis**
+- Applying advanced **anomaly detection** techniques to **medical**, **industrial**, and **surveillance** domains
+- Exploring **multimodal** data fusion strategies to enhance model performance and enable precise representation learning
 
-Work Experience
+EDUCATION
+======
+- Master of Computer Science
+  - Handong Global University, Pohang, South Korea
+  - Graduated: August, 2025
+- Bachelor of Computer Science
+  - Handong Global University, Pohang, South Korea
+  - Graduated: February, 2023
+
+WORK EXPERIENCE
 ======
 - Graduate Research Assistant
   - Handong Global University, Pohang, South Korea
@@ -25,26 +36,10 @@ Work Experience
   - Advisor: Yuyin Zhou
   - December 2024 - April 2025 (5 month)
 - Research Intern
-  - ETRI (Electronics and Telecommunications Research Institute), Daejeon, South Korea
+  - Electronics and Telecommunications Research Institute (ETRI), Daejeon, South Korea
   - January 2023 - February 2023 (1.5 month)
 
-Education
-======
-- Master of Computer Science
-  - Handong Global University, Pohang, South Korea
-  - Expected Graduation: August, 2025
-- Bachelor of Computer Science
-  - Handong Global University, Pohang, South Korea
-  - Graduated: February, 2023
-
-Volunteer Experience
-======
-- Student Volunteer, IJCAI (International Joint Conferences on Artificial Intelligence)
-  - August 2024
-- Teaching Assistant, Data Science Camp in Cambodia, UNESCO UNITWIN
-  - August 2023
-
-Refereed Publications
+REFEREED PUBLICATIONS
 ======
 - **International Venues**
   - **Harim Kim**, Yuhan Wang, Minkyu Ahn, Heeyoul Choi, Yuyin Zhou, Charmgil Hong. Harnessing EHRs for Diffusion-based Anomaly Detection on Chest X-rays. Medical Image Computing and Computer Assisted Intervention (MICCAI). 2025. (**Early Accepted**) ([arxiv](https://arxiv.org/abs/2505.17311))
@@ -58,16 +53,8 @@ Refereed Publications
   - **Harim Kim**, Yeseul Kim, Yohan Sohn, Hyo Jung Cho, Soon Sun Kim, Ji Eun Han, Jae Youn Cheong, Charmgil Hong. Prediction of Drug-Induced Liver Injuries Using Transformer. Korea Software Congress (KSC). 2023.
   - **Harim Kim**, Yuseok Bae, Joong-won Hwang. Distance-Based Confidence Calibration Method Robust to Open Set Classfication. Korea Computer Congress (KCC). 2023.
   - **Harim Kim**, Charmgil Hong. Outlier Detection-Based Crime Scene Detection in Surveillance Videos Using Variational AutoEncoder. Korea Computer Congress (KCC). 2022.
- 
-Workshops/Symposiums
-======
-- **Harim Kim**, Hyo Jung Cho, Soon Sun Kim, Ji Eun Han, Jae Youn Cheong, Charmgil Hong. Personalized Prediction of Drug-Induced Liver Injury Using the Transformer Architecture. The Liver Week (TLW) 2024.
-- **Harim Kim**, Minchae Kim, Taewoo Kim, Kyujin Cho, Charmgil Hong. Red-Light Violation Detection Using Attention Mechanism in Dashcam Footage. Korea Multimedia Society, Spring. 2024.
-- Chaewon Kim, Seeun Park, **Harim Kim**, Taewoo Kim, Kyujin Cho, Charmgil Hong. A Method for Lane Recognition and Departure Detection Using Dashcam Videos. Korea Multimedia Society, Spring. 2024.
-- **Harim Kim**, Hyo Jung Cho, Jae Youn Cheong, Charmgil Hong. Lenvatinib Efficacy Prediction Using Liver CT Images and a Pre-trained 3D-CNN. Korean Society of Medical Informatics, Fall. 2022.
-- **Harim Kim**, Charmgil Hong. Trespass Detection in Surveillance Videos Using VAE- SVDD with 3D-CNN. Korea Multimedia Society, Spring. 2022.
 
-Awards
+HONORS
 ======
 - **Best Thesis Award**. Handong Global University. August 2025.
 - **Certificate of Appreciation**. Korean Institute of Information Scientists and Engineers (KIISE). July 2025
@@ -78,6 +65,51 @@ Awards
 - **Best Paper Award**. KSC (Korean Software Congress). December 2023.
 - **Best Capstone Project in AI Award**. Korea Multimedia Society, Spring. May 2022.
 - **Best Capstone Design**. Handong Global University. June 2022.
+ 
+PRESENTATIONS
+======
+- Transformer for Point Anomaly Detection (Top Conference Session), *Korea Computer Congress, South Korea, Jul 2025*
+- Personalized Prediction of Drug-Induced Liver Injury Using the Transformer Architecture, *The Liver Week (TLW), South Korea, Jun 2024*
+- Red-Light Violation Detection Using Attention Mechanism in Dashcam Footage, *Korea Multimedia Society, South Korea, May 2024*
+- A Method for Lane Recognition and Departure Detection Using Dashcam Videos, *Korea Multimedia Society, South Korea, May 2024*
+- Lenvatinib Efficacy Prediction Using Liver CT Images and a Pre-trained 3D-CNN, *Korean Society of Medical Informatics, South Korea, Nov 2022*
+- Trespass Detection in Surveillance Videos Using VAE- SVDD with 3D-CNN, *Korea Multimedia Society, South Korea, May 2022*
+
+PARTICIPATED PROJECTS
+======
+- Development of Next-Generation Healthcare Machine Learning Technologies Using Multimodal Data
+  - Affiliated Institution: Handong Global University, South Korea
+  - Collaborating Institution: University of California, Santa Cruz, United States
+- Development of High Performance Visual BigData Discovery Platform for Large-Scale Real-time Data Analysis
+  - Affiliated Institution: Handong Global University, South Korea / ETRI, South Korea
+  - Collaborating Institution: GMDSOFT Inc., South Korea
+- Expansion of Connected Car Services through the Development of a Video Analysis-based Safe Driving Evaluation Service
+  - Affiliated Institution: Handong Global University, South Korea
+  - Collaborating Institution: AiCAR Inc., South Korea
+- Development of a Fecal Image-analysis Model for IoT Smart Toilet Services
+  - Affiliated Institution: Handong Global University, South Korea
+  - Collaborating Institution: HEM Pharma Inc., South Korea
+- Development of Drug-induced Liver Injury Prediction Model Utilizing Electronic 
+Medical Records
+  - Affiliated Institution: Handong Global University, South Korea
+  - Collaborating Institution: Ajou University Hospital, South Korea
+
+Volunteer Experience
+======
+- **Project Advisor**, Gyeongbuk Software Meister High School, South Korea
+  - Real-time Fire Detection Using AI
+- **Lecturer**, Korea Maritime Meister High School, South Korea
+  - One-day Lecture: OpenCV and Artificial Intelligence
+- **Teaching Assistant**, UNESCO UNITWIN, Cambodia
+  - Data Science Camp in Cambodia
+- **Teaching Assistant**, Handong Global University, South Korea
+  - 2023 / 2024 Machine Learning Camp 
+  - ITP30010 Database System
+
+Volunteer Experience
+======
+- **Student Volunteer**, IJCAI (International Joint Conferences on Artificial Intelligence)
+  - August 2024
 
 Media Coverage
 ======
@@ -86,4 +118,3 @@ Media Coverage
 - "Handong Global University and GMDSOFT Gain International Recognition for AI Video Processing Technology" - Media Gyeongbuk, August 2024 ([link](http://www.mediagb.kr/news/view.php?idx=35347))
 
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fhrkim153.github.io%2F&count_bg=%235C5C5C&title_bg=%23C5E1EB&icon=retroarch&icon_color=%23E7E7E7&title=Hits&edge_flat=false)](https://hits.seeyoufarm.com)
