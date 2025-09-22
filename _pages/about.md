@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "ABOUT ME"
 author_profile: true
 redirect_from: 
   - /about/
@@ -94,7 +94,7 @@ Medical Records
   - Affiliated Institution: Handong Global University, South Korea
   - Collaborating Institution: Ajou University Hospital, South Korea
 
-Volunteer Experience
+TEACHING EXPERIENCE
 ======
 - **Project Advisor**, Gyeongbuk Software Meister High School, South Korea
   - Real-time Fire Detection Using AI
@@ -106,12 +106,12 @@ Volunteer Experience
   - 2023 / 2024 Machine Learning Camp 
   - ITP30010 Database System
 
-Volunteer Experience
+VOLUNTEERING
 ======
 - **Student Volunteer**, IJCAI (International Joint Conferences on Artificial Intelligence)
   - August 2024
 
-Media Coverage
+MEDIA COVERAGE
 ======
 - "Handong Global University and UCSC Kick Off Global Research on Next-Generation Hearthcare AI" - Nate News, December 2024 ([link](https://m.news.nate.com/view/20241231n06219?mid=m03&list=recent&cpcd=))
 - "Handong Global University AI Research Team and AiCAR Win Best Paper Award at International Video Security Conference" - AI Times, August 2024 ([link](https://www.aitimes.kr/news/articleView.html?idxno=31894))
