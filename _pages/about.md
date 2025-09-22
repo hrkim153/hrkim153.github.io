@@ -108,8 +108,7 @@ TEACHING EXPERIENCE
 
 VOLUNTEERING
 ======
-- **Student Volunteer**, IJCAI (International Joint Conferences on Artificial Intelligence)
-  - August 2024
+- **Student Volunteer**, IJCAI (International Joint Conferences on Artificial Intelligence), August 2024
 
 MEDIA COVERAGE
 ======
