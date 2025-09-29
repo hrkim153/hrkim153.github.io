@@ -12,7 +12,7 @@ I hold a Master's degree in the Department of Computer Science and Electrical En
 
 RESEARCH INTEREST
 ======
-- Developing innovative deep learning frameworks to address constrained challenges in **image and video data analysis**
+- Developing intent-driven deep learning frameworks to address constrained challenges in **image and video data analysis**
 - Applying advanced **anomaly detection** techniques to **medical**, **industrial**, and **surveillance** domains
 - Exploring **multimodal** data fusion strategies to enhance model performance and enable precise representation learning
 
