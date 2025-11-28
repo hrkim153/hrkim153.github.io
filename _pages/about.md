@@ -8,13 +8,13 @@ redirect_from:
 ---
 Hello, I am **Harim Kim**.
 
-I hold a Master's degree in the Department of Computer Science and Electrical Engineering. My research interest lies in developing innovative deep learning frameworks to address constrained challenges in image and video data analysis. I completed my M.S. in Computer Science at [Handong Global University](https://handong.edu/) under the supervision of [Prof. Charmgil Hong](https://charmgil.github.io/) in [Handong Artificial Intelligence Lab. (HAIL)](https://hail.handong.edu/), and I am currently **seeking Ph.D. opportunities in computer science**.
+I completed my M.S. in Computer Science at [Handong Global University](https://handong.edu/) under the supervision of [Prof. Charmgil Hong](https://charmgil.github.io/) in [Handong Artificial Intelligence Lab. (HAIL)](https://hail.handong.edu/), and I am currently **seeking Ph.D. opportunities in computer science**.
 
 RESEARCH INTEREST
 ======
-- Developing intent-driven deep learning frameworks to address constrained challenges in **image and video data analysis**
-- Applying advanced **anomaly detection** techniques to **medical**, **industrial**, and **surveillance** domains
-- Exploring **multimodal** data fusion strategies to enhance model performance and enable precise representation learning
+- Developing **intent-driven deep learning frameworks** to address fundamental challenges in medical AI
+- Exploring **multimodal data fusion** strategies for robust and informative representation learning
+- Constructing **anomaly detection** techniques informed by latent space understanding 
 
 EDUCATION
 ======
@@ -38,6 +38,10 @@ WORK EXPERIENCE
 - Research Intern
   - Electronics and Telecommunications Research Institute (ETRI), Daejeon, South Korea
   - January 2023 - February 2023 (1.5 month)
+- Undergraduate Research Assistant
+  - Handong Global University, Pohang, South Korea
+  - Advisor: Charmgil Hong
+  - August 2021 - December 2022 (1.5 years)
 
 REFEREED PUBLICATIONS
 ======
@@ -112,6 +116,7 @@ VOLUNTEERING
 
 MEDIA COVERAGE
 ======
+- "Handong Global University Researchers Recognized for Their Work in Medical Imaging at MICCAI, the World's Top Conference in the Field" - Beyond Post, September 2025 ([link](https://www.beyondpost.co.kr/view.php?ud=20250930143145429292e75d13a3_30))
 - "Handong Global University and UCSC Kick Off Global Research on Next-Generation Hearthcare AI" - Nate News, December 2024 ([link](https://m.news.nate.com/view/20241231n06219?mid=m03&list=recent&cpcd=))
 - "Handong Global University AI Research Team and AiCAR Win Best Paper Award at International Video Security Conference" - AI Times, August 2024 ([link](https://www.aitimes.kr/news/articleView.html?idxno=31894))
 - "Handong Global University and GMDSOFT Gain International Recognition for AI Video Processing Technology" - Media Gyeongbuk, August 2024 ([link](http://www.mediagb.kr/news/view.php?idx=35347))
