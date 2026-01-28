@@ -54,3 +54,37 @@
   word-break: keep-all;
   overflow-wrap: break-word; 
 }
+
+/* === Global Font: Lexend Deca === */
+
+body,
+.page__content,
+.archive,
+.sidebar,
+.masthead,
+.nav__list {
+  font-family: "Lexend Deca", sans-serif !important;
+  font-weight: 200;
+}
+
+/* Headings should be slightly heavier for readability */
+h1, h2, h3, h4 {
+  font-family: "Lexend Deca", sans-serif !important;
+  font-weight: 500;
+}
+
+/* Improve paragraph readability */
+.page__content {
+  line-height: 1.75;
+  font-size: 1.05rem;
+}
+
+.masthead,
+.nav__list,
+.sidebar {
+  font-weight: 300;
+}
+
+
+
+
