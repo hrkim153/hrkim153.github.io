@@ -14,4 +14,4 @@ In particular, I am interested in:
 - Exploring **multimodal data fusion** strategies for robust and informative representation learning
 - Constructing **anomaly detection** techniques informed by latent space understanding 
 
-For more details about my academic background, publications, and research experiences, please refer to my [Resume](/cv/) page.
+For more details about my academic background, publications, and research experiences, please refer to [Resume](/cv/) page.
