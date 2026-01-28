@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-
+---
 Research Interest
 ======
 - Developing **intent-driven deep learning frameworks** to address fundamental challenges in medical AI
@@ -122,5 +122,3 @@ Media Coverage
 
 
 
-======
-* Currently signed in to 43 different slack teams
