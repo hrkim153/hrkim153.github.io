@@ -1,22 +1,20 @@
 ---
 permalink: /
-title: "ABOUT ME"
+title: "Harim Kim"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-Hello, I am **Harim Kim**.
+I completed my M.S. in Computer Science at [Handong Global University](https://handong.edu/) under the supervision of [Prof. Charmgil Hong](https://charmgil.github.io/) in [Handong Artificial Intelligence Lab. (HAIL)](https://hail.handong.edu/), and I am currently **seeking Ph.D. opportunities**.
 
-I completed my M.S. in Computer Science at [Handong Global University](https://handong.edu/) under the supervision of [Prof. Charmgil Hong](https://charmgil.github.io/) in [Handong Artificial Intelligence Lab. (HAIL)](https://hail.handong.edu/), and I am currently **seeking Ph.D. opportunities in computer science**.
-
-RESEARCH INTEREST
+Research Interest
 ======
 - Developing **intent-driven deep learning frameworks** to address fundamental challenges in medical AI
 - Exploring **multimodal data fusion** strategies for robust and informative representation learning
 - Constructing **anomaly detection** techniques informed by latent space understanding 
 
-EDUCATION
+Education
 ======
 - Master of Computer Science
   - Handong Global University, Pohang, South Korea
@@ -25,7 +23,7 @@ EDUCATION
   - Handong Global University, Pohang, South Korea
   - Graduated: February, 2023
 
-WORK EXPERIENCE
+Work Experience
 ======
 - Graduate Research Assistant
   - Handong Global University, Pohang, South Korea
@@ -43,7 +41,7 @@ WORK EXPERIENCE
   - Advisor: Charmgil Hong
   - August 2021 - December 2022 (1.5 years)
 
-REFEREED PUBLICATIONS
+Refereed Publications
 ======
 - **International Venues**
   - **Harim Kim**, Yuhan Wang, Minkyu Ahn, Heeyoul Choi, Yuyin Zhou, Charmgil Hong. Harnessing EHRs for Diffusion-based Anomaly Detection on Chest X-rays. Medical Image Computing and Computer Assisted Intervention (MICCAI). 2025. (**Early Accepted**) ([arxiv](https://arxiv.org/abs/2505.17311))
@@ -58,7 +56,7 @@ REFEREED PUBLICATIONS
   - **Harim Kim**, Yuseok Bae, Joong-won Hwang. Distance-Based Confidence Calibration Method Robust to Open Set Classfication. Korea Computer Congress (KCC). 2023.
   - **Harim Kim**, Charmgil Hong. Outlier Detection-Based Crime Scene Detection in Surveillance Videos Using Variational AutoEncoder. Korea Computer Congress (KCC). 2022.
 
-HONORS
+Honors
 ======
 - **Best Thesis Award**. Handong Global University. August 2025.
 - **Certificate of Appreciation**. Korean Institute of Information Scientists and Engineers (KIISE). July 2025
@@ -70,7 +68,7 @@ HONORS
 - **Best Capstone Project in AI Award**. Korea Multimedia Society, Spring. May 2022.
 - **Best Capstone Design**. Handong Global University. June 2022.
  
-PRESENTATIONS
+Presentations
 ======
 - Transformer for Point Anomaly Detection (Top Conference Session), *Korea Computer Congress, South Korea, Jul 2025*
 - Personalized Prediction of Drug-Induced Liver Injury Using the Transformer Architecture, *The Liver Week (TLW), South Korea, Jun 2024*
@@ -79,7 +77,7 @@ PRESENTATIONS
 - Lenvatinib Efficacy Prediction Using Liver CT Images and a Pre-trained 3D-CNN, *Korean Society of Medical Informatics, South Korea, Nov 2022*
 - Trespass Detection in Surveillance Videos Using VAE- SVDD with 3D-CNN, *Korea Multimedia Society, South Korea, May 2022*
 
-PARTICIPATED PROJECTS
+Participated Projects
 ======
 - Development of Next-Generation Healthcare Machine Learning Technologies Using Multimodal Data
   - Affiliated Institution: Handong Global University, South Korea
@@ -98,7 +96,7 @@ Medical Records
   - Affiliated Institution: Handong Global University, South Korea
   - Collaborating Institution: Ajou University Hospital, South Korea
 
-TEACHING EXPERIENCE
+Teaching Experience
 ======
 - **Project Advisor**, Gyeongbuk Software Meister High School, South Korea
   - Real-time Fire Detection Using AI
@@ -110,11 +108,11 @@ TEACHING EXPERIENCE
   - 2023 / 2024 Machine Learning Camp 
   - ITP30010 Database System
 
-VOLUNTEERING
+Volunteering
 ======
 - **Student Volunteer**, IJCAI (International Joint Conferences on Artificial Intelligence), August 2024
 
-MEDIA COVERAGE
+Media Coverage
 ======
 - "Handong Global University Researchers Recognized for Their Work in Medical Imaging at MICCAI, the World's Top Conference in the Field" - Beyond Post, September 2025 ([link](https://www.beyondpost.co.kr/view.php?ud=20250930143145429292e75d13a3_30))
 - "Handong Global University and UCSC Kick Off Global Research on Next-Generation Hearthcare AI" - Nate News, December 2024 ([link](https://m.news.nate.com/view/20241231n06219?mid=m03&list=recent&cpcd=))
