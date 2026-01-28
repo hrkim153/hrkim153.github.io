@@ -39,3 +39,27 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* --- CV rows: left/right alignment --- */
+.cv-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: baseline;
+}
+
+.cv-left {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.cv-right {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  opacity: 0.85;
+}
+
+@media (max-width: 600px) {
+  .cv-row { flex-direction: column; }
+  .cv-right { white-space: normal; }
+}
