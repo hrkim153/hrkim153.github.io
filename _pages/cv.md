@@ -9,11 +9,13 @@ redirect_from:
 
 {% include base_path %}
 ---
+
 Research Interest
 ======
 - Developing **intent-driven deep learning frameworks** to address fundamental challenges in medical AI
 - Exploring **multimodal data fusion** strategies for robust and informative representation learning
-- Constructing **anomaly detection** techniques informed by latent space understanding 
+- Constructing **anomaly detection** techniques informed by latent space understanding
+---
 
 Education
 ======
@@ -23,6 +25,7 @@ Education
 - **Bachelor of Computer Science**
   - Handong Global University, Pohang, South Korea
   - Graduated: February, 2023
+---
 
 Work Experience
 ======
@@ -41,6 +44,7 @@ Work Experience
   - Handong Global University, Pohang, South Korea
   - Advisor: Charmgil Hong
   - August 2021 - December 2022 (1.5 years)
+---
 
 Refereed Publications
 ======
@@ -56,6 +60,7 @@ Refereed Publications
   - **Harim Kim**, Yeseul Kim, Yohan Sohn, Hyo Jung Cho, Soon Sun Kim, Ji Eun Han, Jae Youn Cheong, Charmgil Hong. Prediction of Drug-Induced Liver Injuries Using Transformer. Korea Software Congress (KSC). 2023.
   - **Harim Kim**, Yuseok Bae, Joong-won Hwang. Distance-Based Confidence Calibration Method Robust to Open Set Classfication. Korea Computer Congress (KCC). 2023.
   - **Harim Kim**, Charmgil Hong. Outlier Detection-Based Crime Scene Detection in Surveillance Videos Using Variational AutoEncoder. Korea Computer Congress (KCC). 2022.
+---
 
 Honors
 ======
@@ -68,7 +73,8 @@ Honors
 - **Best Paper Award**. KSC (Korean Software Congress). December 2023.
 - **Best Capstone Project in AI Award**. Korea Multimedia Society, Spring. May 2022.
 - **Best Capstone Design**. Handong Global University. June 2022.
- 
+---
+
 Presentations
 ======
 - Transformer for Point Anomaly Detection (Top Conference Session), *Korea Computer Congress, South Korea, Jul 2025*
@@ -77,6 +83,7 @@ Presentations
 - A Method for Lane Recognition and Departure Detection Using Dashcam Videos, *Korea Multimedia Society, South Korea, May 2024*
 - Lenvatinib Efficacy Prediction Using Liver CT Images and a Pre-trained 3D-CNN, *Korean Society of Medical Informatics, South Korea, Nov 2022*
 - Trespass Detection in Surveillance Videos Using VAE- SVDD with 3D-CNN, *Korea Multimedia Society, South Korea, May 2022*
+---
 
 Participated Projects
 ======
@@ -96,6 +103,7 @@ Participated Projects
 Medical Records**
   - Affiliated Institution: Handong Global University, South Korea
   - Collaborating Institution: Ajou University Hospital, South Korea
+---
 
 Teaching Experience
 ======
@@ -108,10 +116,12 @@ Teaching Experience
 - **Teaching Assistant**, Handong Global University, South Korea
   - 2023 / 2024 Machine Learning Camp 
   - ITP30010 Database System
+---
 
 Volunteering
 ======
 - **Student Volunteer**, IJCAI (International Joint Conferences on Artificial Intelligence), August 2024
+---
 
 Media Coverage
 ======
