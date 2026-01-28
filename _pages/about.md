@@ -16,27 +16,27 @@ Research Interest
 
 Education
 ======
-- Master of Computer Science
+- **Master of Computer Science**
   - Handong Global University, Pohang, South Korea
   - Graduated: August, 2025
-- Bachelor of Computer Science
+- **Bachelor of Computer Science**
   - Handong Global University, Pohang, South Korea
   - Graduated: February, 2023
 
 Work Experience
 ======
-- Graduate Research Assistant
+- **Graduate Research Assistant**
   - Handong Global University, Pohang, South Korea
   - Advisor: Charmgil Hong
   - March 2023 - August 2025 (2.5 years)
-- Visiting Researcher
+- **Visiting Researcher**
   - University of California, Santa Cruz, CA
   - Advisor: Yuyin Zhou
   - December 2024 - April 2025 (5 month)
-- Research Intern
+- **Research Intern**
   - Electronics and Telecommunications Research Institute (ETRI), Daejeon, South Korea
   - January 2023 - February 2023 (1.5 month)
-- Undergraduate Research Assistant
+- **Undergraduate Research Assistant**
   - Handong Global University, Pohang, South Korea
   - Advisor: Charmgil Hong
   - August 2021 - December 2022 (1.5 years)
@@ -44,17 +44,17 @@ Work Experience
 Refereed Publications
 ======
 - **International Venues**
-  - **Harim Kim**, Yuhan Wang, Minkyu Ahn, Heeyoul Choi, Yuyin Zhou, Charmgil Hong. Harnessing EHRs for Diffusion-based Anomaly Detection on Chest X-rays. Medical Image Computing and Computer Assisted Intervention (MICCAI). 2025. (**Early Accepted**) ([arxiv](https://arxiv.org/abs/2505.17311))
-  - **Harim Kim**, Chang Ha Lee, Charmgil Hong. Transformer for Point Anomaly Detection. ACM International Conference on Information and Knowledge Management (CIKM). 2024. ([paper](https://dl.acm.org/doi/10.1145/3627673.3679859), [github](https://github.com/nth221/TransPAD))
-  - Jaemin Jung, Soonyong Park, **Harim Kim**, Chang Ha Lee, Charmgil Hong. Artificial Intelligence-Driven Video Indexing for Rapid Surveillance Footage Summarization and Review. International Joint Conference on Artificial Intelligence (IJCAI) Demo Track. 2024. ([paper](https://www.ijcai.org/proceedings/2024/1009.pdf), [github](https://github.com/nth221/videx))
-  - **Harim Kim**, Minchae Kim, Taewoo Kim, Kyujin Cho, Charmgil Hong. AREST: Attention-Based Red-Light Violation Detection for Safety Technology. IEEE International Conference on Advanced Video and Signal-Based Surveillance (AVSS). 2024. ([paper](https://ieeexplore.ieee.org/document/10672611))
-  - **Harim Kim**, Chang Ha Lee, Charmgil Hong. VATMAN: Video Anomaly Transformer for Monitoring Accidents and Nefariousness. IEEE International Conference on Advanced Video and Signal-Based Surveillance (AVSS). 2024. ([paper](https://ieeexplore.ieee.org/document/10672570), [github](https://github.com/nth221/vatman))
-  - **Harim Kim**, Chang Ha Lee, Charmgil Hong. Crime Scene Detection in Surveillance Videos Using Variational AutoEncoder-Based Support Vector Data Description. Asian Conference on Intelligent Information and Database Systems (ACIIDS). 2023. ([paper](https://link.springer.com/chapter/10.1007/978-3-031-42430-4_37))
+  - **Harim Kim**, Yuhan Wang, Minkyu Ahn, Heeyoul Choi, Yuyin Zhou, Charmgil Hong. Harnessing EHRs for Diffusion-based Anomaly Detection on Chest X-rays. Medical Image Computing and Computer Assisted Intervention (**MICCAI**). **2025**. (**Early Accepted, Top 9%**) ([paper](https://link.springer.com/chapter/10.1007/978-3-032-04947-6_23), [github](https://github.com/nth221/Diff3M))
+  - **Harim Kim**, Chang Ha Lee, Charmgil Hong. Transformer for Point Anomaly Detection. ACM International Conference on Information and Knowledge Management (**CIKM**). **2024**. ([paper](https://dl.acm.org/doi/10.1145/3627673.3679859), [github](https://github.com/nth221/TransPAD))
+  - Jaemin Jung, Soonyong Park, **Harim Kim**, Chang Ha Lee, Charmgil Hong. Artificial Intelligence-Driven Video Indexing for Rapid Surveillance Footage Summarization and Review. International Joint Conference on Artificial Intelligence (**IJCAI**) Demo Track. **2024**. ([paper](https://www.ijcai.org/proceedings/2024/1009.pdf), [github](https://github.com/nth221/videx))
+  - **Harim Kim**, Minchae Kim, Taewoo Kim, Kyujin Cho, Charmgil Hong. AREST: Attention-Based Red-Light Violation Detection for Safety Technology. IEEE International Conference on Advanced Video and Signal-Based Surveillance (**AVSS**). **2024**. ([paper](https://ieeexplore.ieee.org/document/10672611))
+  - **Harim Kim**, Chang Ha Lee, Charmgil Hong. VATMAN: Video Anomaly Transformer for Monitoring Accidents and Nefariousness. IEEE International Conference on Advanced Video and Signal-Based Surveillance (**AVSS**). **2024**. ([paper](https://ieeexplore.ieee.org/document/10672570), [github](https://github.com/nth221/vatman))
+  - **Harim Kim**, Chang Ha Lee, Charmgil Hong. Crime Scene Detection in Surveillance Videos Using Variational AutoEncoder-Based Support Vector Data Description. Asian Conference on Intelligent Information and Database Systems (**ACIIDS**). **2023**. ([paper](https://link.springer.com/chapter/10.1007/978-3-031-42430-4_37))
 - **Domestic Venues**
-  - **Harim Kim**, Yeseul Kim, Yohan Sohn, Hyo Jung Cho, Soon Sun Kim, Ji Eun Han, Jae Youn Cheong, Charmgil Hong. Prediction of Drug-Induced Liver Injuries Using Transformer. KIISE Transactions on Computing Practices (KTCP). 2024.
-  - **Harim Kim**, Yeseul Kim, Yohan Sohn, Hyo Jung Cho, Soon Sun Kim, Ji Eun Han, Jae Youn Cheong, Charmgil Hong. Prediction of Drug-Induced Liver Injuries Using Transformer. Korea Software Congress (KSC). 2023.
-  - **Harim Kim**, Yuseok Bae, Joong-won Hwang. Distance-Based Confidence Calibration Method Robust to Open Set Classfication. Korea Computer Congress (KCC). 2023.
-  - **Harim Kim**, Charmgil Hong. Outlier Detection-Based Crime Scene Detection in Surveillance Videos Using Variational AutoEncoder. Korea Computer Congress (KCC). 2022.
+  - **Harim Kim**, Yeseul Kim, Yohan Sohn, Hyo Jung Cho, Soon Sun Kim, Ji Eun Han, Jae Youn Cheong, Charmgil Hong. Prediction of Drug-Induced Liver Injuries Using Transformer. KIISE Transactions on Computing Practices (**KTCP**). **2024**.
+  - **Harim Kim**, Yeseul Kim, Yohan Sohn, Hyo Jung Cho, Soon Sun Kim, Ji Eun Han, Jae Youn Cheong, Charmgil Hong. Prediction of Drug-Induced Liver Injuries Using Transformer. Korea Software Congress (**KSC**). **2023**.
+  - **Harim Kim**, Yuseok Bae, Joong-won Hwang. Distance-Based Confidence Calibration Method Robust to Open Set Classfication. Korea Computer Congress (**KCC**). **2023**.
+  - **Harim Kim**, Charmgil Hong. Outlier Detection-Based Crime Scene Detection in Surveillance Videos Using Variational AutoEncoder. Korea Computer Congress (**KCC**). **2022**.
 
 Honors
 ======
@@ -79,20 +79,20 @@ Presentations
 
 Participated Projects
 ======
-- Development of Next-Generation Healthcare Machine Learning Technologies Using Multimodal Data
+- **Development of Next-Generation Healthcare Machine Learning Technologies Using Multimodal Data**
   - Affiliated Institution: Handong Global University, South Korea
   - Collaborating Institution: University of California, Santa Cruz, United States
-- Development of High Performance Visual BigData Discovery Platform for Large-Scale Real-time Data Analysis
+- **Development of High Performance Visual BigData Discovery Platform for Large-Scale Real-time Data Analysis**
   - Affiliated Institution: Handong Global University, South Korea / ETRI, South Korea
   - Collaborating Institution: GMDSOFT Inc., South Korea
-- Expansion of Connected Car Services through the Development of a Video Analysis-based Safe Driving Evaluation Service
+- **Expansion of Connected Car Services through the Development of a Video Analysis-based Safe Driving Evaluation Service**
   - Affiliated Institution: Handong Global University, South Korea
   - Collaborating Institution: AiCAR Inc., South Korea
-- Development of a Fecal Image-analysis Model for IoT Smart Toilet Services
+- **Development of a Fecal Image-analysis Model for IoT Smart Toilet Services**
   - Affiliated Institution: Handong Global University, South Korea
   - Collaborating Institution: HEM Pharma Inc., South Korea
-- Development of Drug-induced Liver Injury Prediction Model Utilizing Electronic 
-Medical Records
+- **Development of Drug-induced Liver Injury Prediction Model Utilizing Electronic 
+Medical Records**
   - Affiliated Institution: Handong Global University, South Korea
   - Collaborating Institution: Ajou University Hospital, South Korea
 
