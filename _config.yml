@@ -25,14 +25,14 @@ author:
   name             : "Harim Kim"
   pronouns         : # example: "she/her"  
   bio              : "Prospective PhD Student"
-  location         : "Jeonju, South Korea"
+  location         : "South Korea"
   #employer         : "Handong Global University"
   uri              : # URL
   email            : "ksanong153@gmail.com"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : #"https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=k-rvBesAAAAJ&hl=ko&oi=ao"
   impactstory      : # URL
   orcid            : #"http://orcid.org/yourorcidurl"
   semantic         : # URL
