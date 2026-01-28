@@ -1,10 +1,3 @@
-<div class="cv-row">
-  <div class="cv-left"><b>Graduate Research Assistant</b> — Handong Global University</div>
-  <div class="cv-right">Mar 2023 – Aug 2025</div>
-</div>
-<div class="cv-left">Advisor: Charmgil Hong</div>
-
-
 ---
 permalink: /
 title: "ABOUT ME"
