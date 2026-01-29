@@ -29,7 +29,7 @@ This section introduces a selection of representative research projects. For eac
 
 <h2>Integrating Multimodal Medical Data</h2>
 
-<div class="swiper project-swiper" id="mmmd-swiper">
+<div class="swiper project-swiper">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
         <a href="/assets/images/selected/Multimodal/diff3m_visualization.jpg"
@@ -88,7 +88,7 @@ To build more reliable and explainable medical AI, this project focuses on desig
 
 <h2>Reinterpreting for Enhanced Anomaly Detection</h2>
 
-<div class="swiper project-swiper" id="mmmd-swiper">
+<div class="swiper project-swiper">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
   <a href="/assets/images/selected/Anomaly/Surveillance.mp4"
