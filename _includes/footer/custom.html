@@ -24,8 +24,11 @@
       }
     });
 
+    document.querySelectorAll("#mmmd-swiper .swiper-slide-duplicate a.glightbox")
+      .forEach(a => a.classList.remove("glightbox"));
+
     if (window.GLightbox) {
-      GLightbox({ selector: ".glightbox" });
+      GLightbox({ selector: "#mmmd-swiper a.glightbox" });
     }
     
     document.querySelectorAll(".pub-abstract[data-expandable]").forEach(p => {
