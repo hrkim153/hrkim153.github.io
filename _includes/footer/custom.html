@@ -24,6 +24,10 @@
       }
     });
 
+    if (window.GLightbox) {
+      GLightbox({ selector: ".glightbox" });
+    }
+    
     document.querySelectorAll(".pub-abstract[data-expandable]").forEach(p => {
       p.addEventListener("click", () => {
         const isCollapsed = p.classList.contains("is-collapsed");
