@@ -23,12 +23,12 @@
 
       window.mmmdSwiper = new Swiper("#mmmd-swiper", {
         loop: false,
-        spaceBetween: 12,
-        slidesPerView: 3,
+        spaceBetween: 16,
+        slidesPerView: 2.5,
         breakpoints: {
           0:   { slidesPerView: 1 },
-          520: { slidesPerView: 2 },
-          760: { slidesPerView: 3 },
+          520: { slidesPerView: 1.5 },
+          760: { slidesPerView: 2.5 },
         },
         grabCursor: true,
         threshold: 6,
