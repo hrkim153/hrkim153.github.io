@@ -181,7 +181,7 @@ To detect unpredictable and unusual patterns in real-world data, this project pr
   </div>
 </div>
 
-To address real-world challenges, this project aims to design efficient, task-specific deep learning frameworks and builds end-to-end pipelines for system-level applications.
+To address real-world challenges, this project aims to design task-specific deep learning frameworks and builds end-to-end pipelines for system-level applications.
 
 <hr class="project-divider">
 
