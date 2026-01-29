@@ -336,3 +336,37 @@ a {
   justify-self: center;
   align-self: center;
 }
+
+/* Center Prev/Next + pagination bullets (force) */
+.project-block .swiper-nav {
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  margin: 10px 0 14px 0;
+}
+
+.project-block .swiper-nav #mmmd-pagination {
+  display: inline-flex !important;
+  width: auto !important;
+  margin: 0 !important;
+}
+
+.project-block .swiper-nav #mmmd-pagination .swiper-pagination-bullet {
+  margin: 0 3px !important;
+}
+
+@media (min-width: 720px) {
+  #mmmd-pagination { display: none !important; }
+}
+
+.pub-card .pub-icon {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media (max-width: 680px) {
+  .pub-card .pub-head { text-align: center; }
+}
