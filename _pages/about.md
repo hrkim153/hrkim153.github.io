@@ -51,6 +51,8 @@ This section introduces a selection of representative research projects. For eac
 
 To build more reliable and explainable medical AI, this project focuses on designing deep learning mechanisms that effectively fuse and utilize multimodal medical data. The goal is to improve disease prediction, enable early detection, and support the discovery of potential biomarkers.
 
+<hr class="project-divider">
+
 <h3 class="project-subtitle">Most Recent Publication</h3>
 
 <div class="pub-card pub-card--wide">
@@ -68,6 +70,7 @@ To build more reliable and explainable medical AI, this project focuses on desig
   <p class="pub-abstract clamp-3 is-collapsed" data-expandable>
     Unsupervised anomaly detection (UAD) in medical imaging is crucial for identifying pathological abnormalities without requiring extensive labeled data. However, existing diffusion-based UAD models rely solely on imaging features, limiting their ability to distinguish between normal anatomical variations and pathological anomalies. To address this, we propose Diff3M, a multi-modal diffusion-based framework that integrates chest X-rays and structured Electronic Health Records (EHRs) for enhanced anomaly detection. Specifically, we introduce a novel Image-EHR Cross-Attention module to incorporate structured clinical context into the image generation process, improving the model’s ability to differentiate normal from abnormal features. Additionally, we develop a static masking strategy to enhance the reconstruction of normal-like images from anomalies. Extensive evaluations on CheXpert and MIMIC-CXR/IV demonstrate that Diff3M achieves state-of-the-art performance, outperforming existing UAD methods in medical imaging. Our implementation is available at https://github.com/nth221/Diff3M.
   </p>
+    <hr class="project-divider">
 </div>
 
 
