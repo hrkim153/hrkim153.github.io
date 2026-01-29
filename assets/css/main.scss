@@ -308,7 +308,7 @@ a {
 
 /* ✅ 데스크탑: 화면에 3장 보이게 (4장 이상이면 자연스럽게 가로 스크롤) */
 .project-swiper:not(.swiper-initialized) .swiper-slide {
-  flex: 0 0 calc((100% - 24px) / 3); /* gap 12px * 2 = 24px */
+  flex: 0 0 calc((100% - 24px) / 2.5); /* gap 12px * 2 = 24px */
   scroll-snap-align: start;
 }
 
