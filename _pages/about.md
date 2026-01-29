@@ -151,7 +151,59 @@ To detect unpredictable and unusual patterns in real-world data, this project pr
 
 
 
+<div class="project-block">
 
+<h2>Development for System-level Application</h2>
+
+<div class="swiper project-swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+        <a href="/assets/images/selected/Application/concated_gif.gif"
+     class="glightbox"
+     data-gallery="mmmd">
+      <img src="/assets/images/selected/Application/concated_gif.gif" alt="AREST visualization result">
+        </a>
+    </div>
+    <div class="swiper-slide">
+        <a href="/assets/images/selected/Application/AREST_framework.jpg"
+     class="glightbox"
+     data-gallery="mmmd">
+      <img src="/assets/images/selected/Application/AREST_framework.jpg" alt="AREST Entire Framework">
+        </a>
+    </div>
+    <div class="swiper-slide">
+        <a href="/assets/images/selected/Application/AREST_module.jpg"
+     class="glightbox"
+     data-gallery="mmmd">
+      <img src="/assets/images/selected/Application/AREST_module.jpg" alt="AREST Proposed Modules">
+        </a>
+    </div>
+  </div>
+</div>
+
+To address real-world challenges, this project aims to design efficient, task-specific deep learning frameworks and builds end-to-end pipelines for system-level applications.
+
+<hr class="project-divider">
+
+<h3 class="project-subtitle">• Most Recent Publication •</h3>
+
+<div class="pub-card pub-card--wide">
+
+  <!-- Row 1: icon + title (same row) -->
+  <img class="pub-icon" src="/assets/images/selected/Application/AREST.jpg" alt="AREST icon">
+
+  <div class="pub-head">
+    <div class="pub-title">
+      <a href="https://ieeexplore.ieee.org/abstract/document/10672611">[Kim et al.] AREST: Attention-Based Red-Light Violation Detection for Safety Technology (IEEE AVSS, 2024)</a>
+    </div>
+  </div>
+
+  <!-- Row 2: abstract spans full width -->
+  <p class="pub-abstract clamp-3 is-collapsed" data-expandable>
+    As car-sharing services evolve, there is a growing effort to analyze users’ safe driving behaviors and effectively manage shared vehicles. Unlike previous researches that focus on simple situations like sudden acceleration and lane departure using cameras with additional sensors, we introduce a new approach that detects more complex traffic rule violation, especially red-light violation, using only the monocular dashcam videos. The proposed framework employs the attention mechanism of Transformer, and effectively encodes the traffic signal objects and contextual information within the video. It utilizes a novel method, POISE (Positional Object Information by Spatial Encoding), to handle the positional information of traffic signal objects. Our quantitative and qualitative evaluations demonstrate the effectiveness of our proposed framework in detecting red-light violations compared to existing methods.
+  </p>
+</div>
+</div>
 
 
 
