@@ -197,12 +197,12 @@ a {
   max-width: 170px;
   border-radius: 12px;
   display: block;
-  align-self: center; /* ✅ 아이콘 상하 중앙 */
+  align-self: center; 
 }
 
 .pub-card .pub-head {
   grid-area: head;
-  align-self: center; /* ✅ 제목 상하 중앙 */
+  align-self: center;
 }
 
 .pub-card .pub-title {
@@ -268,3 +268,19 @@ a {
   margin: 0.8rem 0 1.4rem 0;
 }
 
+/* === Reduce top spacing inside project block === */
+.project-block {
+  padding-top: 10px;   /* 기존 18px → 10px */
+}
+
+/* h2가 기본 margin 때문에 위가 과하게 뜨는 것 방지 */
+.project-block h2 {
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+/* Most Recent Publication 제목 간격도 적당히 */
+.project-subtitle {
+  margin-top: 14px;
+  margin-bottom: 8px;
+}
