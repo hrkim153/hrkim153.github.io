@@ -55,7 +55,7 @@ To build more reliable and explainable medical AI, this project focuses on desig
 
 <div class="pub-card pub-card--wide">
   <!-- Row 1: icon + title (same row) -->
-  <img class="pub-icon" src="/assets/images/selected/mmmd_recent_concept.png" alt="Diff3M icon">
+  <img class="pub-icon" src="/assets/images/selected/Multimodal/diff3m.jpg" alt="Diff3M icon">
 
   <div class="pub-head">
     <div class="pub-title">
