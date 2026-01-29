@@ -2,19 +2,19 @@
   document.addEventListener("DOMContentLoaded", () => {
 
     // --- abstract click-to-expand (Swiper 없어도 항상 동작해야 함) ---
-  document.querySelectorAll(".pub-abstract[data-expandable]").forEach(p => {
-    if (p.dataset.bound === "1") return;   // <- 핵심
-    p.dataset.bound = "1";
-
-    p.addEventListener("click", (e) => {
-      e.preventDefault();
-      e.stopPropagation();
-
-      const isCollapsed = p.classList.contains("is-collapsed");
-      p.classList.toggle("is-collapsed", !isCollapsed);
-      p.classList.toggle("is-expanded", isCollapsed);
+    document.querySelectorAll(".pub-abstract[data-expandable]").forEach(p => {
+      if (p.dataset.bound === "1") return;   // <- 핵심
+      p.dataset.bound = "1";
+  
+      p.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+  
+        const isCollapsed = p.classList.contains("is-collapsed");
+        p.classList.toggle("is-collapsed", !isCollapsed);
+        p.classList.toggle("is-expanded", isCollapsed);
+      });
     });
-  });
 
     // --- Swiper (있을 때만) ---
     const swiperEl = document.querySelector("#mmmd-swiper");
