@@ -178,10 +178,86 @@ a {
 }
 
 /* mobile: stack */
+.pub-card {
+  display: grid;
+  grid-template-columns: 170px 1fr; /* icon col + text col */
+  grid-template-areas:
+    "icon head"
+    "abs  abs";
+  gap: 14px;
+  padding: 16px;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 16px;
+  margin: 0.8rem 0 1.0rem 0;
+}
+
+.pub-card .pub-icon {
+  grid-area: icon;
+  width: 100%;
+  max-width: 170px;
+  border-radius: 12px;
+  display: block;
+  align-self: center; /* ✅ 아이콘 상하 중앙 */
+}
+
+.pub-card .pub-head {
+  grid-area: head;
+  align-self: center; /* ✅ 제목 상하 중앙 */
+}
+
+.pub-card .pub-title {
+  margin: 0;
+  font-weight: 600;
+}
+
+.pub-card .pub-abstract {
+  grid-area: abs;
+  margin: 0;
+  opacity: 0.92;
+}
+
+/* 3-line clamp */
+.clamp-3.is-collapsed {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+/* expanded 상태 */
+.pub-abstract.is-expanded {
+  display: block;
+  overflow: visible;
+}
+
+/* hover interaction (색 바꾸기 + 클릭 가능한 느낌) */
+.pub-abstract[data-expandable] {
+  cursor: pointer;
+  transition: color 0.15s ease, opacity 0.15s ease;
+}
+.pub-abstract[data-expandable]:hover {
+  color: #1f77b4; /* 링크처럼 보이게 (원하면 다른 색으로 바꿔도 됨) */
+  opacity: 1;
+}
+
+/* optional: make the card slightly wider */
+.pub-card--wide {
+  width: calc(100% + 24px);
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+/* mobile: stack */
 @media (max-width: 680px) {
   .pub-card {
-    align-items: center;               
-    grid-template-columns: 170px 1fr;  
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "icon"
+      "head"
+      "abs";
+  }
+  .pub-card .pub-icon {
+    max-width: 220px;
   }
 }
 
@@ -192,8 +268,3 @@ a {
   margin: 0.8rem 0 1.4rem 0;
 }
 
-.project-block .pub-card {
-  border: none;
-  padding: 12px 0;
-  margin: 0.6rem 0 0.8rem 0;
-}
