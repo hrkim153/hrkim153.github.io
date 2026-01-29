@@ -258,6 +258,7 @@ a {
   }
   .pub-card .pub-icon {
     max-width: 220px;
+    text-align: center;
   }
 }
 
@@ -317,3 +318,21 @@ a {
 .project-swiper a.glightbox { text-decoration: none; }
 .project-swiper a.glightbox:focus { outline: none; }
 
+.swiper-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.swiper-nav #mmmd-pagination {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.pub-card .pub-icon {
+  justify-self: center;
+  align-self: center;
+}
