@@ -287,25 +287,44 @@ a {
 }
 
 /* ===== Swiper essential fallback styles (in case CDN CSS doesn't load) ===== */
-/* Swiper가 초기화되기 전(= swiper-initialized 클래스가 없을 때)은 3장 그리드로 보여주기 */
+/* ===== Fallback: Swiper가 초기화되지 않아도 "가로 스크롤(드래그)"로 보이게 ===== */
 .project-swiper:not(.swiper-initialized) {
-  overflow: visible; /* ✅ hidden 때문에 1장만 보이던 걸 방지 */
+  overflow: hidden; /* 바깥 컨테이너는 깔끔하게 */
 }
 
+/* ✅ wrapper가 가로로 이어지고, 필요할 때만 스크롤 생김 */
 .project-swiper:not(.swiper-initialized) .swiper-wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: nowrap;
   gap: 12px;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+
+  scroll-snap-type: x mandatory; /* 스냅(선택) */
+  padding-bottom: 6px; /* 스크롤바 생길 때 레이아웃 덜 흔들리게 */
 }
 
-/* 모바일에서는 1~2장으로 줄이고 싶으면 */
+/* ✅ 데스크탑: 화면에 3장 보이게 (4장 이상이면 자연스럽게 가로 스크롤) */
+.project-swiper:not(.swiper-initialized) .swiper-slide {
+  flex: 0 0 calc((100% - 24px) / 3); /* gap 12px * 2 = 24px */
+  scroll-snap-align: start;
+}
+
+/* ✅ 모바일/좁은 화면: 1장(또는 1장+α)씩 보이게 */
 @media (max-width: 760px) {
-  .project-swiper:not(.swiper-initialized) .swiper-wrapper {
-    grid-template-columns: repeat(2, 1fr);
+  .project-swiper:not(.swiper-initialized) .swiper-slide {
+    flex-basis: 85%;
   }
 }
 @media (max-width: 520px) {
-  .project-swiper:not(.swiper-initialized) .swiper-wrapper {
-    grid-template-columns: 1fr;
+  .project-swiper:not(.swiper-initialized) .swiper-slide {
+    flex-basis: 92%;
   }
+}
+
+/* (선택) 스크롤바 숨기고 싶으면 */
+.project-swiper:not(.swiper-initialized) .swiper-wrapper::-webkit-scrollbar {
+  height: 8px;
 }
