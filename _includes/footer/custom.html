@@ -1,3 +1,39 @@
 <!-- start custom footer snippets -->
 <a href="/sitemap/">Sitemap</a>
+
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    new Swiper("#mmmd-swiper", {
+      loop: true,
+      spaceBetween: 12,
+      slidesPerView: 1,
+      centeredSlides: false,
+      navigation: {
+        nextEl: "#mmmd-next",
+        prevEl: "#mmmd-prev",
+      },
+      pagination: {
+        el: "#mmmd-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        720: { slidesPerView: 2 },
+        1024: { slidesPerView: 3 },
+      }
+    });
+
+    document.querySelectorAll("[data-abstract-toggle]").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const targetId = btn.getAttribute("data-abstract-toggle");
+        const p = document.getElementById(targetId);
+        if (!p) return;
+        p.classList.toggle("is-expanded");
+        btn.textContent = p.classList.contains("is-expanded") ? "Show less" : "Read more";
+      });
+    });
+  });
+</script>
+
 <!-- end custom footer snippets -->
