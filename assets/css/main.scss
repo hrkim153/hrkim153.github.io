@@ -328,3 +328,20 @@ a {
 .project-swiper:not(.swiper-initialized) .swiper-wrapper::-webkit-scrollbar {
   height: 8px;
 }
+
+.project-swiper .swiper-slide {
+  height: 150px;        /* 통일된 높이 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-swiper img,
+.project-swiper video {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;   /* ✅ 잘리지 않고 전부 보이게 */
+  display: block;
+}
