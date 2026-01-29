@@ -24,13 +24,16 @@
       }
     });
 
-    document.querySelectorAll("[data-abstract-toggle]").forEach(btn => {
-      btn.addEventListener("click", () => {
-        const targetId = btn.getAttribute("data-abstract-toggle");
-        const p = document.getElementById(targetId);
-        if (!p) return;
-        p.classList.toggle("is-expanded");
-        btn.textContent = p.classList.contains("is-expanded") ? "Show less" : "Read more";
+    document.querySelectorAll(".pub-abstract[data-expandable]").forEach(p => {
+      p.addEventListener("click", () => {
+        const isCollapsed = p.classList.contains("is-collapsed");
+        if (isCollapsed) {
+          p.classList.remove("is-collapsed");
+          p.classList.add("is-expanded");
+        } else {
+          p.classList.add("is-collapsed");
+          p.classList.remove("is-expanded");
+        }
       });
     });
   });
