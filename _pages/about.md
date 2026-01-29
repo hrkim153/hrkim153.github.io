@@ -32,13 +32,25 @@ This section introduces a selection of representative research projects. For eac
 <div class="swiper project-swiper" id="mmmd-swiper">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
+        <a href="/assets/images/selected/Multimodal/diff3m_visualization.jpg"
+     class="glightbox"
+     data-gallery="mmmd">
       <img src="/assets/images/selected/Multimodal/diff3m_visualization.jpg" alt="Diff3M Visaulization Results">
+        </a>
     </div>
     <div class="swiper-slide">
+        <a href="/assets/images/selected/Multimodal/diff3m_framework.jpg"
+     class="glightbox"
+     data-gallery="mmmd">
       <img src="/assets/images/selected/Multimodal/diff3m_framework.jpg" alt="Diff3M Entire Framework">
+        </a>
     </div>
     <div class="swiper-slide">
+        <a href="/assets/images/selected/Multimodal/diff3m_modules.jpg"
+     class="glightbox"
+     data-gallery="mmmd">
       <img src="/assets/images/selected/Multimodal/diff3m_modules.jpg" alt="Diff3M Proposed Modules">
+        </a>
     </div>
   </div>
 </div>
