@@ -53,21 +53,23 @@ To build more reliable and explainable medical AI, this project focuses on desig
 
 ### Most Recent Publication
 
-<div class="pub-card">
-  <div>
-    <img src="/assets/images/selected/Multimodal/diff3m.jpg" alt="Concept Icon">
-  </div>
-  <div>
-    <div class="pub-title">
-      <a href="https://link.springer.com/chapter/10.1007/978-3-032-04947-6_23">Harnessing EHRs for Diffusion-based Anomaly Detection on Chest X-rays (MICCAI, 2025)</a>
-    </div>
-</div>
-    <p class="pub-abstract clamp-3" id="abs-mmmd-1">
-      Unsupervised anomaly detection (UAD) in medical imaging is crucial for identifying pathological abnormalities without requiring extensive labeled data. However, existing diffusion-based UAD models rely solely on imaging features, limiting their ability to distinguish between normal anatomical variations and pathological anomalies. To address this, we propose Diff3M, a multi-modal diffusion-based framework that integrates chest X-rays and structured Electronic Health Records (EHRs) for enhanced anomaly detection. Specifically, we introduce a novel Image-EHR Cross-Attention module to incorporate structured clinical context into the image generation process, improving the model’s ability to differentiate normal from abnormal features. Additionally, we develop a static masking strategy to enhance the reconstruction of normal-like images from anomalies. Extensive evaluations on CheXpert and MIMIC-CXR/IV demonstrate that Diff3M achieves state-of-the-art performance, outperforming existing UAD methods in medical imaging. Our implementation is available at https://github.com/nth221/Diff3M.
-    </p>
+<div class="pub-card pub-card--wide">
+  <!-- Row 1: icon + title (same row) -->
+  <img class="pub-icon" src="/assets/images/selected/mmmd_recent_concept.png" alt="Diff3M icon">
 
-    <button class="swiper-btn" type="button" data-abstract-toggle="abs-mmmd-1">Read more</button>
+  <div class="pub-head">
+    <div class="pub-title">
+      <a href="https://link.springer.com/chapter/10.1007/978-3-032-04947-6_23">[Kim et al.] Harnessing EHRs for Diffusion-based Anomaly Detection on Chest X-rays (MICCAI, 2025) - Early Accepted (Top 9%)</a>
+    </div>
   </div>
+
+  <!-- Row 2: abstract spans full width -->
+  <p class="pub-abstract clamp-3 is-collapsed" data-expandable>
+    Unsupervised anomaly detection (UAD) in medical imaging is crucial for identifying pathological abnormalities without requiring extensive labeled data. However, existing diffusion-based UAD models rely solely on imaging features, limiting their ability to distinguish between normal anatomical variations and pathological anomalies. To address this, we propose Diff3M, a multi-modal diffusion-based framework that integrates chest X-rays and structured Electronic Health Records (EHRs) for enhanced anomaly detection. Specifically, we introduce a novel Image-EHR Cross-Attention module to incorporate structured clinical context into the image generation process, improving the model’s ability to differentiate normal from abnormal features. Additionally, we develop a static masking strategy to enhance the reconstruction of normal-like images from anomalies. Extensive evaluations on CheXpert and MIMIC-CXR/IV demonstrate that Diff3M achieves state-of-the-art performance, outperforming existing UAD methods in medical imaging. Our implementation is available at https://github.com/nth221/Diff3M.
+  </p>
+</div>
+
+
 </div>
 
 <!--
