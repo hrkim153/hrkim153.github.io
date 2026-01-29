@@ -285,3 +285,18 @@ a {
     max-height: 240px;
   }
 }
+
+/* ===== Swiper essential fallback styles (in case CDN CSS doesn't load) ===== */
+.project-swiper {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-swiper .swiper-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.project-swiper .swiper-slide {
+  flex: 0 0 auto;
+}
