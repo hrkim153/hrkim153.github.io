@@ -287,16 +287,25 @@ a {
 }
 
 /* ===== Swiper essential fallback styles (in case CDN CSS doesn't load) ===== */
-.project-swiper {
-  position: relative;
-  overflow: hidden;
+/* Swiper가 초기화되기 전(= swiper-initialized 클래스가 없을 때)은 3장 그리드로 보여주기 */
+.project-swiper:not(.swiper-initialized) {
+  overflow: visible; /* ✅ hidden 때문에 1장만 보이던 걸 방지 */
 }
 
-.project-swiper .swiper-wrapper {
-  display: flex;
-  flex-wrap: nowrap;
+.project-swiper:not(.swiper-initialized) .swiper-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
 }
 
-.project-swiper .swiper-slide {
-  flex: 0 0 auto;
+/* 모바일에서는 1~2장으로 줄이고 싶으면 */
+@media (max-width: 760px) {
+  .project-swiper:not(.swiper-initialized) .swiper-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 520px) {
+  .project-swiper:not(.swiper-initialized) .swiper-wrapper {
+    grid-template-columns: 1fr;
+  }
 }
