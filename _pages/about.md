@@ -25,8 +25,9 @@ This section introduces a selection of representative research projects. For eac
 
 <div class="selected-block"></div>
 
-### Integrating Multimodal Medical Data
 <div class="project-block">
+
+## Integrating Multimodal Medical Data
 
 <div class="swiper project-swiper" id="mmmd-swiper">
   <div class="swiper-wrapper">
@@ -50,7 +51,7 @@ This section introduces a selection of representative research projects. For eac
 
 To build more reliable and explainable medical AI, this project focuses on designing deep learning mechanisms that effectively fuse and utilize multimodal medical data. The goal is to improve disease prediction, enable early detection, and support the discovery of potential biomarkers.
 
-#### Most Recent Publication
+### Most Recent Publication
 
 <div class="pub-card">
   <div>
