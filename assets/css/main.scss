@@ -100,6 +100,89 @@ a {
   text-decoration: none !important;
 }
 
+/* ===== Selected Projects UI ===== */
+
+/* Section spacing */
+.selected-block {
+  margin: 1.2rem 0 2rem 0;
+}
+
+/* Swiper sizing */
+.project-swiper {
+  width: 100%;
+  margin: 0.6rem 0 1rem 0;
+}
+
+.project-swiper .swiper-slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+}
+
+/* Swiper nav buttons */
+.swiper-nav {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin: 0.4rem 0 0.8rem 0;
+}
+
+.swiper-btn {
+  padding: 6px 10px;
+  border: 1px solid rgba(0,0,0,0.18);
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Most recent publication: 2-column card */
+.pub-card {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 14px;
+  padding: 14px;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 14px;
+  margin: 0.8rem 0 1.0rem 0;
+}
+
+.pub-card img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+
+.pub-title {
+  margin: 0 0 0.35rem 0;
+  font-weight: 600;
+}
+
+.pub-abstract {
+  margin: 0;
+  opacity: 0.92;
+}
+
+/* 3-line clamp + ... */
+.clamp-3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+/* expanded 상태면 clamp 해제 */
+.pub-abstract.is-expanded {
+  display: block;
+  overflow: visible;
+}
+
+/* mobile: stack */
+@media (max-width: 680px) {
+  .pub-card {
+    grid-template-columns: 1fr;
+  }
+}
 
 
 
