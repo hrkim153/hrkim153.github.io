@@ -100,120 +100,143 @@ a {
   text-decoration: none !important;
 }
 
-/* ===== Selected Projects UI ===== */
+/* ===== Selected Projects UI (CLEAN) ===== */
 
 /* Section spacing */
 .selected-block {
   margin: 1.2rem 0 2rem 0;
 }
 
+/* Project wrapper */
+.project-block {
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 18px;
+  padding: 10px 18px 14px 18px;
+  margin: 0.8rem 0 1.4rem 0;
+}
+
+.project-block h2 {
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
 /* Swiper sizing */
 .project-swiper {
   width: 100%;
-  margin: 0.6rem 0 1rem 0;
+  margin: 0.6rem 0 0.8rem 0;
+}
+
+.project-swiper .swiper-slide {
+  /* prevent weird stretching */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-swiper .swiper-slide img {
   width: 100%;
   height: auto;
+  max-height: 280px;     /* ✅ 이미지가 과하게 커지는 것 방지 */
+  object-fit: contain;   /* ✅ X-ray 같은 그림에 좋음 */
   border-radius: 10px;
   display: block;
 }
 
-/* Swiper nav buttons */
-.swiper-nav {
+/* Swiper nav (center) */
+.project-block .swiper-nav {
   display: flex;
-  gap: 8px;
+  justify-content: center;
   align-items: center;
-  margin: 0.4rem 0 0.8rem 0;
+  gap: 10px;
+  width: 100%;
+  margin: 8px 0 14px 0;
 }
 
-.swiper-btn {
-  padding: 6px 10px;
+.project-block .swiper-btn {
+  padding: 6px 12px;
   border: 1px solid rgba(0,0,0,0.18);
   border-radius: 10px;
   cursor: pointer;
   user-select: none;
 }
 
-/* Most recent publication: 2-column card */
-.pub-card {
+.project-block #mmmd-pagination {
+  display: inline-flex;
+  align-items: center;
+  width: auto;
+}
+
+/* pagination dot spacing */
+.project-block #mmmd-pagination .swiper-pagination-bullet {
+  margin: 0 3px;
+}
+
+/* ✅ 데스크탑에서는 점 숨기고 싶다면 유지, 아니라면 이 블록 삭제 */
+@media (min-width: 720px) {
+  #mmmd-pagination { display: none !important; }
+}
+
+/* Dividers */
+.project-divider {
+  border: none;
+  border-top: 1px solid rgba(0,0,0,0.10);
+  margin: 14px 0;
+}
+
+/* Subtitle */
+.project-subtitle {
+  text-align: center;
+  margin: 8px 0 12px 0;
+}
+
+/* Publication card (no rounded container in project-block) */
+.project-block .pub-card {
   display: grid;
-  grid-template-columns: 140px 1fr;
-  gap: 14px;
-  padding: 14px;
-  border: 1px solid rgba(0,0,0,0.12);
-  border-radius: 14px;
-  margin: 0.8rem 0 1.0rem 0;
-}
-
-.pub-card img {
-  width: 100%;
-  border-radius: 10px;
-  display: block;
-}
-
-.pub-title {
-  margin: 0 0 0.35rem 0;
-  font-weight: 600;
-}
-
-.pub-abstract {
-  margin: 0;
-  opacity: 0.92;
-}
-
-/* 3-line clamp + ... */
-.clamp-3 {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  overflow: hidden;
-}
-
-/* expanded 상태면 clamp 해제 */
-.pub-abstract.is-expanded {
-  display: block;
-  overflow: visible;
-}
-
-/* mobile: stack */
-.pub-card {
-  display: grid;
-  grid-template-columns: 170px 1fr; /* icon col + text col */
+  grid-template-columns: 170px 1fr;
   grid-template-areas:
     "icon head"
     "abs  abs";
   gap: 14px;
-  padding: 16px;
-  border: 1px solid rgba(0,0,0,0.12);
-  border-radius: 16px;
-  margin: 0.8rem 0 1.0rem 0;
+  padding: 10px 0;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  margin: 0.2rem 0 0 0;
 }
 
-.pub-card .pub-icon {
+.project-block .pub-card--wide {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.project-block .pub-card .pub-icon {
   grid-area: icon;
   width: 100%;
   max-width: 170px;
   border-radius: 12px;
   display: block;
-  align-self: center; 
+  align-self: center;
+  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.pub-card .pub-head {
+.project-block .pub-card .pub-head {
   grid-area: head;
   align-self: center;
 }
 
-.pub-card .pub-title {
+.project-block .pub-card .pub-title {
   margin: 0;
   font-weight: 600;
 }
 
-.pub-card .pub-abstract {
+.project-block .pub-card .pub-abstract {
   grid-area: abs;
   margin: 0;
   opacity: 0.92;
+  overflow-wrap: anywhere;
 }
 
 /* 3-line clamp */
@@ -224,149 +247,41 @@ a {
   overflow: hidden;
 }
 
-/* expanded 상태 */
 .pub-abstract.is-expanded {
   display: block;
   overflow: visible;
 }
 
-/* hover interaction (색 바꾸기 + 클릭 가능한 느낌) */
+/* hover interaction */
 .pub-abstract[data-expandable] {
   cursor: pointer;
   transition: color 0.15s ease, opacity 0.15s ease;
 }
 .pub-abstract[data-expandable]:hover {
-  color: #1f77b4; /* 링크처럼 보이게 (원하면 다른 색으로 바꿔도 됨) */
+  color: #1f77b4;
   opacity: 1;
 }
 
-/* optional: make the card slightly wider */
-.pub-card--wide {
-  width: calc(100% + 24px);
-  margin-left: -12px;
-  margin-right: -12px;
-}
+/* Remove underline for glightbox links in slider */
+.project-swiper a.glightbox { text-decoration: none; }
+.project-swiper a.glightbox:focus { outline: none; }
 
-/* mobile: stack */
+/* Mobile stack */
 @media (max-width: 680px) {
-  .pub-card {
+  .project-block .pub-card {
     grid-template-columns: 1fr;
     grid-template-areas:
       "icon"
       "head"
       "abs";
   }
-  .pub-card .pub-icon {
-    max-width: 220px;
+  .project-block .pub-card .pub-head {
     text-align: center;
   }
-}
-
-.project-block {
-  border: 1px solid rgba(0,0,0,0.12);
-  border-radius: 18px;
-  padding: 18px 18px 14px 18px;
-  margin: 0.8rem 0 1.4rem 0;
-}
-
-/* === Reduce top spacing inside project block === */
-.project-block {
-  padding-top: 10px;   /* 기존 18px → 10px */
-}
-
-/* h2가 기본 margin 때문에 위가 과하게 뜨는 것 방지 */
-.project-block h2 {
-  margin-top: 6px;
-  margin-bottom: 10px;
-}
-
-/* Most Recent Publication 제목 간격도 적당히 */
-.project-subtitle {
-  margin-top: 14px;
-  margin-bottom: 8px;
-}
-
-/* ===== Thin divider (only where you put <hr class="project-divider">) ===== */
-.project-divider {
-  border: none;
-  border-top: 1px solid rgba(0,0,0,0.10);
-  margin: 14px 0;
-}
-
-/* ===== Center the "Most Recent Publication" title ===== */
-.project-subtitle {
-  text-align: center;
-  margin: 8px 0 12px 0;
-}
-
-/* ===== Remove rounded border around the Diff3M publication card ===== */
-.project-block .pub-card {
-  border: none !important;
-  border-radius: 0 !important;
-  box-shadow: none !important;
-  padding: 10px 0 !important;
-  margin: 0.2rem 0 0 0;
-}
-
-/* pub-card--wide: cancel the negative margins so it doesn't look like a big card */
-.project-block .pub-card--wide {
-  width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.project-swiper a.glightbox { text-decoration: none; }
-.project-swiper a.glightbox:focus { outline: none; }
-
-.swiper-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  margin-top: 10px;
-}
-
-.swiper-nav #mmmd-pagination {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.pub-card .pub-icon {
-  justify-self: center;
-  align-self: center;
-}
-
-/* Center Prev/Next + pagination bullets (force) */
-.project-block .swiper-nav {
-  display: flex;
-  justify-content: center !important;
-  align-items: center;
-  gap: 10px;
-  width: 100%;
-  margin: 10px 0 14px 0;
-}
-
-.project-block .swiper-nav #mmmd-pagination {
-  display: inline-flex !important;
-  width: auto !important;
-  margin: 0 !important;
-}
-
-.project-block .swiper-nav #mmmd-pagination .swiper-pagination-bullet {
-  margin: 0 3px !important;
-}
-
-@media (min-width: 720px) {
-  #mmmd-pagination { display: none !important; }
-}
-
-.pub-card .pub-icon {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
-@media (max-width: 680px) {
-  .pub-card .pub-head { text-align: center; }
+  .project-block .pub-card .pub-icon {
+    max-width: 220px;
+  }
+  .project-swiper .swiper-slide img {
+    max-height: 240px;
+  }
 }
