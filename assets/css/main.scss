@@ -313,3 +313,7 @@ a {
   margin-left: 0;
   margin-right: 0;
 }
+
+.project-swiper a.glightbox { text-decoration: none; }
+.project-swiper a.glightbox:focus { outline: none; }
+
