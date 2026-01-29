@@ -1,13 +1,13 @@
-<!-- start custom footer snippets -->
-<a href="/sitemap/">Sitemap</a>
-
 <script>
   document.addEventListener("DOMContentLoaded", () => {
-    // Swiper
-    new Swiper("#mmmd-swiper", {
+    // Swiper (store instance for debugging)
+    window.mmmdSwiper = new Swiper("#mmmd-swiper", {
       loop: false,
       spaceBetween: 12,
-      slidesPerView: 1,
+
+      // ✅ 기본을 3으로 두고, 좁아질수록 줄이는 방식이 더 안정적
+      slidesPerView: 3,
+
       navigation: {
         nextEl: "#mmmd-next",
         prevEl: "#mmmd-prev",
@@ -16,9 +16,22 @@
         el: "#mmmd-pagination",
         clickable: true,
       },
+
+      // ✅ Minimal Mistakes 본문 폭에 맞춘 breakpoint (720/1024는 너무 높음)
       breakpoints: {
-        720: { slidesPerView: 2 },
-        1024: { slidesPerView: 3 },
+        0:   { slidesPerView: 1 },
+        520: { slidesPerView: 2 },
+        760: { slidesPerView: 3 },
+      },
+
+      // (선택) 혹시라도 클릭/드래그 꼬임 방지
+      watchSlidesProgress: true,
+      preventClicks: false,
+      preventClicksPropagation: false,
+
+      // ✅ 디버그: 슬라이드 개수 확인
+      on: {
+        init() { console.log("mmmd slides:", this.slides.length); }
       }
     });
 
@@ -37,16 +50,9 @@
     document.querySelectorAll(".pub-abstract[data-expandable]").forEach(p => {
       p.addEventListener("click", () => {
         const isCollapsed = p.classList.contains("is-collapsed");
-        if (isCollapsed) {
-          p.classList.remove("is-collapsed");
-          p.classList.add("is-expanded");
-        } else {
-          p.classList.add("is-collapsed");
-          p.classList.remove("is-expanded");
-        }
+        p.classList.toggle("is-collapsed", !isCollapsed);
+        p.classList.toggle("is-expanded", isCollapsed);
       });
     });
   });
 </script>
-
-<!-- end custom footer snippets -->
