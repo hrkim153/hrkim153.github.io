@@ -52,7 +52,7 @@ This section introduces a selection of representative research projects. For eac
 To build more reliable and explainable medical AI, this project focuses on designing deep learning mechanisms that effectively fuse and utilize multimodal medical data. The goal is to improve disease prediction, enable early detection, and support the discovery of potential biomarkers.
 
 
-<h3 class="project-subtitle"><Most Recent Publication></h3>
+<h3 class="project-subtitle">• Most Recent Publication •</h3>
 
 <div class="pub-card pub-card--wide">
 
