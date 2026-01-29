@@ -284,3 +284,32 @@ a {
   margin-top: 14px;
   margin-bottom: 8px;
 }
+
+/* ===== Thin divider (only where you put <hr class="project-divider">) ===== */
+.project-divider {
+  border: none;
+  border-top: 1px solid rgba(0,0,0,0.10);
+  margin: 14px 0;
+}
+
+/* ===== Center the "Most Recent Publication" title ===== */
+.project-subtitle {
+  text-align: center;
+  margin: 8px 0 12px 0;
+}
+
+/* ===== Remove rounded border around the Diff3M publication card ===== */
+.project-block .pub-card {
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  padding: 10px 0 !important;
+  margin: 0.2rem 0 0 0;
+}
+
+/* pub-card--wide: cancel the negative margins so it doesn't look like a big card */
+.project-block .pub-card--wide {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
