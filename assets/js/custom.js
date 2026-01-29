@@ -1,1 +1,73 @@
+(function initCustom() {
+  console.log("✅ custom.html loaded!");
+  const run = () => {
 
+    // --- abstract click-to-expand (Swiper 없어도 항상 동작해야 함) ---
+    document.querySelectorAll(".pub-abstract[data-expandable]").forEach(p => {
+      if (p.dataset.bound === "1") return;
+      p.dataset.bound = "1";
+
+      p.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+
+        const isCollapsed = p.classList.contains("is-collapsed");
+        p.classList.toggle("is-collapsed", !isCollapsed);
+        p.classList.toggle("is-expanded", isCollapsed);
+      });
+    });
+
+    // --- Swiper (있을 때만) ---
+    const swiperEl = document.querySelector("#mmmd-swiper");
+    if (swiperEl && typeof Swiper !== "undefined") {
+
+      window.mmmdSwiper = new Swiper("#mmmd-swiper", {
+        loop: false,
+        spaceBetween: 12,
+        slidesPerView: 3,
+        breakpoints: {
+          0:   { slidesPerView: 1 },
+          520: { slidesPerView: 2 },
+          760: { slidesPerView: 3 },
+        },
+        grabCursor: true,
+        threshold: 6,
+        touchStartPreventDefault: false,
+        navigation: { nextEl: "#mmmd-next", prevEl: "#mmmd-prev" },
+        pagination: { el: "#mmmd-pagination", clickable: true },
+        on: { init() { console.log("mmmd slides:", this.slides.length); } }
+      });
+
+      // --- GLightbox (click to zoom) ---
+      if (window.mmmdLightbox) {
+        window.mmmdLightbox.destroy();
+        window.mmmdLightbox = null;
+      }
+      if (window.GLightbox) {
+        window.mmmdLightbox = GLightbox({ selector: "#mmmd-swiper a.glightbox" });
+      }
+
+      // --- Prevent "drag => lightbox open" ---
+      let isDragging = false;
+      window.mmmdSwiper.on("sliderMove", () => { isDragging = true; });
+      window.mmmdSwiper.on("touchEnd", () => { setTimeout(() => { isDragging = false; }, 0); });
+      window.mmmdSwiper.on("transitionEnd", () => { setTimeout(() => { isDragging = false; }, 0); });
+
+      document.querySelectorAll("#mmmd-swiper a.glightbox").forEach(a => {
+        a.addEventListener("click", (e) => {
+          if (isDragging) {
+            e.preventDefault();
+            e.stopPropagation();
+          }
+        }, true);
+      });
+    }
+  };
+
+  // ✅ DOMContentLoaded 전에 로드되든, 후에 로드되든 항상 실행되게
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", run);
+  } else {
+    run();
+  }
+})();
