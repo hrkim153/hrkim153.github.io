@@ -1,13 +1,27 @@
 <script>
   document.addEventListener("DOMContentLoaded", () => {
-    // Swiper (store instance for debugging)
+    // --- Swiper ---
+    const swiperEl = document.querySelector("#mmmd-swiper");
+    if (!swiperEl || typeof Swiper === "undefined") return;
+
     window.mmmdSwiper = new Swiper("#mmmd-swiper", {
       loop: false,
       spaceBetween: 12,
 
-      // ✅ 기본을 3으로 두고, 좁아질수록 줄이는 방식이 더 안정적
+      // Minimal Mistakes 본문 폭 기준
       slidesPerView: 3,
+      breakpoints: {
+        0:   { slidesPerView: 1 },
+        520: { slidesPerView: 2 },
+        760: { slidesPerView: 3 },
+      },
 
+      // 드래그/스와이프 UX
+      grabCursor: true,
+      threshold: 6,
+      touchStartPreventDefault: false,
+
+      // (버튼을 안 쓸거면 about.md에서 nav 삭제해도 됨. 남겨두면 버튼도 같이 동작)
       navigation: {
         nextEl: "#mmmd-next",
         prevEl: "#mmmd-prev",
@@ -17,25 +31,13 @@
         clickable: true,
       },
 
-      // ✅ Minimal Mistakes 본문 폭에 맞춘 breakpoint (720/1024는 너무 높음)
-      breakpoints: {
-        0:   { slidesPerView: 1 },
-        520: { slidesPerView: 2 },
-        760: { slidesPerView: 3 },
-      },
-
-      // (선택) 혹시라도 클릭/드래그 꼬임 방지
-      watchSlidesProgress: true,
-      preventClicks: false,
-      preventClicksPropagation: false,
-
-      // ✅ 디버그: 슬라이드 개수 확인
+      // 디버그
       on: {
         init() { console.log("mmmd slides:", this.slides.length); }
       }
     });
 
-    // GLightbox (click to zoom)
+    // --- GLightbox (click to zoom) ---
     if (window.mmmdLightbox) {
       window.mmmdLightbox.destroy();
       window.mmmdLightbox = null;
@@ -46,7 +48,29 @@
       });
     }
 
-    // abstract click-to-expand
+    // --- Prevent "drag => lightbox open" ---
+    let isDragging = false;
+
+    window.mmmdSwiper.on("sliderMove", () => { isDragging = true; });
+    window.mmmdSwiper.on("touchEnd", () => {
+      // click 이벤트가 touchEnd 직후에도 이어질 수 있어서 한 틱 늦게 false로
+      setTimeout(() => { isDragging = false; }, 0);
+    });
+    window.mmmdSwiper.on("transitionEnd", () => {
+      // 마우스로 드래그하고 놓는 경우도 커버
+      setTimeout(() => { isDragging = false; }, 0);
+    });
+
+    document.querySelectorAll("#mmmd-swiper a.glightbox").forEach(a => {
+      a.addEventListener("click", (e) => {
+        if (isDragging) {
+          e.preventDefault();
+          e.stopPropagation();
+        }
+      }, true);
+    });
+
+    // --- abstract click-to-expand ---
     document.querySelectorAll(".pub-abstract[data-expandable]").forEach(p => {
       p.addEventListener("click", () => {
         const isCollapsed = p.classList.contains("is-collapsed");
