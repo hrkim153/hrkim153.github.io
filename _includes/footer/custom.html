@@ -1,15 +1,16 @@
 <script>
-  document.addEventListener("DOMContentLoaded", () => {
+(function initCustom() {
+  const run = () => {
 
     // --- abstract click-to-expand (Swiper 없어도 항상 동작해야 함) ---
     document.querySelectorAll(".pub-abstract[data-expandable]").forEach(p => {
-      if (p.dataset.bound === "1") return;   // <- 핵심
+      if (p.dataset.bound === "1") return;
       p.dataset.bound = "1";
-  
+
       p.addEventListener("click", (e) => {
         e.preventDefault();
         e.stopPropagation();
-  
+
         const isCollapsed = p.classList.contains("is-collapsed");
         p.classList.toggle("is-collapsed", !isCollapsed);
         p.classList.toggle("is-expanded", isCollapsed);
@@ -61,5 +62,13 @@
         }, true);
       });
     }
-  });
+  };
+
+  // ✅ DOMContentLoaded 전에 로드되든, 후에 로드되든 항상 실행되게
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", run);
+  } else {
+    run();
+  }
+})();
 </script>
