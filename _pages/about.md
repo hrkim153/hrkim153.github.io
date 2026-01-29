@@ -27,7 +27,7 @@ This section introduces a selection of representative research projects. For eac
 
 <div class="project-block">
 
-## Integrating Multimodal Medical Data
+<h2>Integrating Multimodal Medical Data</h2>
 
 <div class="swiper project-swiper" id="mmmd-swiper">
   <div class="swiper-wrapper">
