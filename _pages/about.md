@@ -91,11 +91,19 @@ To build more reliable and explainable medical AI, this project focuses on desig
 <div class="swiper project-swiper" id="mmmd-swiper">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
-        <a href="/assets/images/selected/Anomaly/Surveillance.mp4"
+  <a href="/assets/images/selected/Anomaly/Surveillance.mp4"
      class="glightbox"
-     data-gallery="mmmd">
-      <img src="/assets/images/selected/Anomaly/Surveillance.mp4" alt="Surveillance Video">
-        </a>
+     data-gallery="mmmd"
+     data-type="video">
+    <video class="project-media"
+           autoplay
+           loop
+           muted
+           playsinline
+           preload="metadata">
+      <source src="/assets/images/selected/Anomaly/Surveillance.mp4" type="video/mp4">
+    </video>
+  </a>
     </div>
     <div class="swiper-slide">
         <a href="/assets/images/selected/Anomaly/TransPAD_framework.jpg"
