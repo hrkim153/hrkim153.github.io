@@ -136,7 +136,7 @@ a {
 .project-swiper .swiper-slide img {
   width: 100%;
   height: auto;
-  max-height: 280px;     /* ✅ 이미지가 과하게 커지는 것 방지 */
+  max-height: 200px;     /* ✅ 이미지가 과하게 커지는 것 방지 */
   object-fit: contain;   /* ✅ X-ray 같은 그림에 좋음 */
   border-radius: 10px;
   display: block;
