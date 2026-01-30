@@ -194,7 +194,7 @@ To address real-world challenges, this project aims to design task-specific deep
 
   <div class="pub-head">
     <div class="pub-title">
-      <a href="https://ieeexplore.ieee.org/abstract/document/10672611">[Kim et al.] AREST: Attention-Based Red-Light Violation Detection for Safety Technology (IEEE AVSS, 2024)</a>
+      <a href="https://ieeexplore.ieee.org/abstract/document/10672611">[Kim et al.] AREST: Attention-Based Red-Light Violation Detection for Safety Technology (IEEE AVSS, 2024) - Best Paper Award</a>
     </div>
   </div>
 
