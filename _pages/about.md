@@ -122,7 +122,7 @@ To build more reliable and explainable medical AI, this project focuses on desig
   </div>
 </div>
 
-To detect unpredictable and unusual patterns in real-world data, this project proposes new anomaly detection frameworks by reinterpreting existing deep learning mechanisms. The proposed frameworks can be applied to identify pathological features in X-rays, detect suspicious activities in surveillance footage, and uncover other types of anomalies.
+To detect unusual patterns in real-world scenarios, this project proposes new anomaly detection frameworks by reinterpreting existing deep learning mechanisms. The proposed frameworks can be applied to identify various abnormalities, such as pathological features in radiological images and suspicious activities in surveillance footage.
 
 <hr class="project-divider">
 
