@@ -21,7 +21,7 @@ For more details about my academic background, publications, and research experi
 Selected Projects
 ======
 
-This section introduces a selection of representative research projects. For each topic, I provide a brief overview, a description of the most recent publication, and a list of prior related publications.
+This section introduces a selection of representative research projects. For each topic, I provide a brief overview and a description of the most recent publication.
 
 <div class="selected-block"></div>
 
