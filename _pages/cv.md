@@ -112,6 +112,21 @@ Medical Records**
 
 ---
 
+Academic Service
+======
+- **Reviewer**, Medical Image Computing and Computer Assisted Intervention (**MICCAI**), **2026**
+- **Student Volunteer**, International Joint Conference on Artificial Intelligence (**IJCAI**), **2024**
+
+---
+
+Patents
+======
+- Dashcam Video Analysis Network for Enhanced Safe Driving (pending)
+- Reliability Estimation for AI systems Using a Dual Latent Space (pending)
+
+---
+
+
 Teaching Experience
 ======
 - **Project Advisor**, Gyeongbuk Software Meister High School, South Korea
@@ -123,12 +138,6 @@ Teaching Experience
 - **Teaching Assistant**, Handong Global University, South Korea
   - 2023 / 2024 Machine Learning Camp 
   - ITP30010 Database System
-
----
-
-Volunteering
-======
-- **Student Volunteer**, IJCAI (International Joint Conferences on Artificial Intelligence), August 2024
 
 ---
 
