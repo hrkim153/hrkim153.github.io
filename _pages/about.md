@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am an Incoming PhD Student in Electrical Engineering at Boston University. I received my M.S. degree in Computer Science at [Handong Global University](https://handong.edu/) under the supervision of [Prof. Charmgil Hong](https://charmgil.github.io/) in [Handong Artificial Intelligence Lab. (HAIL)](https://hail.handong.edu/).
+I am an Incoming PhD Student in Electrical Engineering at [Boston University](https://www.bu.edu/). I received my M.S. degree in Computer Science at [Handong Global University](https://handong.edu/) under the supervision of [Prof. Charmgil Hong](https://charmgil.github.io/) in [Handong Artificial Intelligence Lab. (HAIL)](https://hail.handong.edu/).
 
 My current research interests lie in developing **intent-driven deep learning frameworks** to address fundamental challenges in medical AI.
 
