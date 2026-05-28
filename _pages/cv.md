@@ -68,6 +68,7 @@ Refereed Publications
 
 Honors
 ======
+- **Distinguished Electrical Engineering Fellowship**. Boston University. March 2026.
 - **Best Thesis Award**. Handong Global University. August 2025.
 - **Certificate of Appreciation**. Korean Institute of Information Scientists and Engineers (KIISE). July 2025
 - **Best Paper Award**. Handong Global University. November 2024.
