@@ -131,16 +131,16 @@ Patents
 Teaching Experience
 ======
 - **Invited Lecturer**, Handong Global University, South Korea
-  - Machine Learning Camp (3 day)
+  - Machine Learning Camp (3 day, 2026)
 - **Project Advisor**, Gyeongbuk Software Meister High School, South Korea
-  - Real-time Fire Detection Using AI (6 months)
+  - Real-time Fire Detection Using AI (6 months, 2025)
 - **Lecturer**, Korea Maritime Meister High School, South Korea
-  - OpenCV and Artificial Intelligence (1 day)
+  - OpenCV and Artificial Intelligence (1 day, 2025)
 - **Teaching Assistant**, UNESCO UNITWIN, Cambodia
-  - Data Science Camp in Cambodia (2 weeks)
+  - Data Science Camp in Cambodia (2 weeks, 2023)
 - **Teaching Assistant**, Handong Global University, South Korea
-  - 2023 / 2024 Machine Learning Camp 
-  - ITP30010 Database System
+  - Machine Learning Camp (2023, 2024) 
+  - ITP30010 Database System (2023)
 
 ---
 
