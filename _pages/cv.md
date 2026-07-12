@@ -131,7 +131,7 @@ Patents
 Teaching Experience
 ======
 - **Invited Lecturer**, Handong Global University, South Korea
-  - First Course in Machine Learning Camp (3 day)
+  - Machine Learning Camp (3 day)
 - **Project Advisor**, Gyeongbuk Software Meister High School, South Korea
   - Real-time Fire Detection Using AI (6 months)
 - **Lecturer**, Korea Maritime Meister High School, South Korea
