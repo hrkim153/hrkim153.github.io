@@ -38,10 +38,10 @@ Work Experience
 - **Visiting Researcher**
   - University of California, Santa Cruz, CA
   - Advisor: Yuyin Zhou
-  - December 2024 - April 2025 (5 month)
+  - December 2024 - April 2025 (5 months)
 - **Research Intern**
   - Electronics and Telecommunications Research Institute (ETRI), Daejeon, South Korea
-  - January 2023 - February 2023 (1.5 month)
+  - January 2023 - February 2023 (1.5 months)
 - **Undergraduate Research Assistant**
   - Handong Global University, Pohang, South Korea
   - Advisor: Charmgil Hong
@@ -130,12 +130,14 @@ Patents
 
 Teaching Experience
 ======
+- **Invited Lecturer**, Handong Global University, South Korea
+  - First Course in Machine Learning Camp (3 day)
 - **Project Advisor**, Gyeongbuk Software Meister High School, South Korea
-  - Real-time Fire Detection Using AI
+  - Real-time Fire Detection Using AI (6 months)
 - **Lecturer**, Korea Maritime Meister High School, South Korea
-  - One-day Lecture: OpenCV and Artificial Intelligence
+  - OpenCV and Artificial Intelligence (1 day)
 - **Teaching Assistant**, UNESCO UNITWIN, Cambodia
-  - Data Science Camp in Cambodia
+  - Data Science Camp in Cambodia (2 weeks)
 - **Teaching Assistant**, Handong Global University, South Korea
   - 2023 / 2024 Machine Learning Camp 
   - ITP30010 Database System
