@@ -20,32 +20,39 @@ Research Interest
 
 Education
 ======
+- **PhD in Electrical Engineering**
+  - Boston University, Boston, MA, United States
+  - Sep 2026 - Present
 - **Master of Computer Science**
   - Handong Global University, Pohang, South Korea
-  - Graduated: August, 2025
+  - Feb 2023 - Aug 2025
 - **Bachelor of Computer Science**
   - Handong Global University, Pohang, South Korea
-  - Graduated: February, 2023
+  - Feb 2016 - Feb 2023
 
 ---
 
 Work Experience
 ======
+- **Graduate Fellow**
+  - Boston University, Boston, MA, United States
+  - Advisor: Kayhan Batmanghelich
+  - Sep 2026 - Present
 - **Graduate Research Assistant**
   - Handong Global University, Pohang, South Korea
   - Advisor: Charmgil Hong
-  - March 2023 - August 2025 (2.5 years)
+  - Mar 2023 - Aug 2025 (2.5 years)
 - **Visiting Researcher**
-  - University of California, Santa Cruz, CA
+  - University of California, Santa Cruz, CA, United States
   - Advisor: Yuyin Zhou
-  - December 2024 - April 2025 (5 months)
+  - Dec 2024 - Apr 2025 (5 months)
 - **Research Intern**
   - Electronics and Telecommunications Research Institute (ETRI), Daejeon, South Korea
-  - January 2023 - February 2023 (1.5 months)
+  - Jan 2023 - Feb 2023 (1.5 months)
 - **Undergraduate Research Assistant**
   - Handong Global University, Pohang, South Korea
   - Advisor: Charmgil Hong
-  - August 2021 - December 2022 (1.5 years)
+  - Aug 2021 - Dec 2022 (1.5 years)
 
 ---
 
@@ -69,6 +76,7 @@ Refereed Publications
 Honors
 ======
 - **Distinguished Electrical Engineering Fellowship**. Boston University. March 2026.
+- **Hackers Bridge Scholarship**. Hackers Education Group. 2026
 - **Best Thesis Award**. Handong Global University. August 2025.
 - **Certificate of Appreciation**. Korean Institute of Information Scientists and Engineers (KIISE). July 2025
 - **Best Paper Award**. Handong Global University. November 2024.
